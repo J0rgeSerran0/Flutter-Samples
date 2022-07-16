@@ -27,14 +27,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final ButtonStyle flatButtonStyle = TextButton.styleFrom(
-    primary: Colors.white,
-    padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16),
-    shape: const RoundedRectangleBorder(
-      borderRadius: BorderRadius.all(Radius.circular(32.0)),
-    ),
-  );
-
   showAlertDialogBox(BuildContext context) {
     // set up the button
     Widget okButton = TextButton(
