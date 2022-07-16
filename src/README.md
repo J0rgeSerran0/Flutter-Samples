@@ -10,8 +10,13 @@
 
 
 ## <a name="alert_dialog_box_with_2_buttons"></a>[**alert_dialog_box_with_2_buttons**](alert_dialog_box_with_2_buttons/lib/main.dart)
-> This sample shows a typical Alert Dialog Box with 2 buttons
+> This sample shows a typical Alert Dialog Box with 2 buttons (cancel, accept)
 ![Flutter Sample - Alert Dialog Box with 2 buttons](images/flutter_sample-Alert_Dialog_Box_with_2_buttons.png)
+
+
+## <a name="alert_dialog_box_with_3_buttons"></a>[**alert_dialog_box_with_3_buttons**](alert_dialog_box_with_3_buttons/lib/main.dart)
+> This sample shows a typical Alert Dialog Box with 3 buttons (cancel, no, yes)
+![Flutter Sample - Alert Dialog Box with 3 buttons](images/flutter_sample-Alert_Dialog_Box_with_3_buttons.png)
 
 
 ## <a name="bottom_navigation_bar"></a>[**bottom_navigation_bar**](bottom_navigation_bar/lib/main.dart)
