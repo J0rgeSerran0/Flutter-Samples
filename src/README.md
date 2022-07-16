@@ -1,6 +1,7 @@
 # Samples
 - [`Alert Dialog Box`](#alert_dialog_box)
 - [`Alert Dialog Box with 2 buttons`](#alert_dialog_box_with_2_buttons)
+- [`Alert Dialog Box with 3 buttons`](#alert_dialog_box_with_3_buttons)
 - [`Bottom Navigation Bar`](#bottom_navigation_bar)
 - [`Horizotal Toolbar`](#horizontal_toolbar)
 
