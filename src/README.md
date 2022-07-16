@@ -1,8 +1,8 @@
 # Samples
 - [`Alert Dialog Box`](#alert_dialog_box)
-- [`Alert Dialog Box with 2 buttons`](#alert_dialog_box_with_2_buttons)
-- [`Alert Dialog Box with 3 buttons`](#alert_dialog_box_with_3_buttons)
 - [`Bottom Navigation Bar`](#bottom_navigation_bar)
+- [`Dialog Box with 2 buttons`](#dialog_box_with_2_buttons)
+- [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
 - [`Horizotal Toolbar`](#horizontal_toolbar)
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
@@ -10,19 +10,19 @@
 ![Flutter Sample - Alert Dialog Box](images/flutter_sample-Alert_Dialog_Box.png)
 
 
-## <a name="alert_dialog_box_with_2_buttons"></a>[**alert_dialog_box_with_2_buttons**](alert_dialog_box_with_2_buttons/lib/main.dart)
-> This sample shows a typical Alert Dialog Box with 2 buttons (cancel, accept)
-![Flutter Sample - Alert Dialog Box with 2 buttons](images/flutter_sample-Alert_Dialog_Box_with_2_buttons.png)
-
-
-## <a name="alert_dialog_box_with_3_buttons"></a>[**alert_dialog_box_with_3_buttons**](alert_dialog_box_with_3_buttons/lib/main.dart)
-> This sample shows a typical Alert Dialog Box with 3 buttons (cancel, no, yes)
-![Flutter Sample - Alert Dialog Box with 3 buttons](images/flutter_sample-Alert_Dialog_Box_with_3_buttons.png)
-
-
 ## <a name="bottom_navigation_bar"></a>[**bottom_navigation_bar**](bottom_navigation_bar/lib/main.dart)
 > This sample shows a typical bottom navigation bar
 ![Flutter Sample - Bottom Navigation Bar](images/flutter_sample-Bottom_Navigation_Bar.png)
+
+
+## <a name="dialog_box_with_2_buttons"></a>[**dialog_box_with_2_buttons**](dialog_box_with_2_buttons/lib/main.dart)
+> This sample shows a typical Dialog Box with 2 buttons (cancel, accept)
+![Flutter Sample - Dialog Box with 2 buttons](images/flutter_sample-Dialog_Box_with_2_buttons.png)
+
+
+## <a name="dialog_box_with_3_buttons"></a>[**dialog_box_with_3_buttons**](dialog_box_with_3_buttons/lib/main.dart)
+> This sample shows a typical Dialog Box with 3 buttons (cancel, no, yes)
+![Flutter Sample - Dialog Box with 3 buttons](images/flutter_sample-Dialog_Box_with_3_buttons.png)
 
 
 ## <a name="horizontal_toolbar"></a>[**horizontal_toolbar**](horizontal_toolbar/lib/main.dart)

@@ -9,12 +9,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Alert Dialog Box with 3 buttons',
+      title: 'Dialog Box with 3 buttons',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Alert Dialog Box with 3 buttons'),
+      home: const MyHomePage(title: 'Dialog Box with 3 buttons'),
     );
   }
 }
@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  showAlertDialogBox(BuildContext context) {
+  showDialogBox(BuildContext context) {
     // set up the buttons
     Widget cancelButton = TextButton(
       onPressed: () => {debugPrint('Cancel'), Navigator.of(context).pop()},
@@ -68,8 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
     // set up the AlertDialog
     AlertDialog alert = AlertDialog(
-      title: const Text("Alert Dialog Box Title with 3 buttons"),
-      content: const Text("Alert Dialog Box Text with 3 buttons"),
+      title: const Text("Dialog Box Title with 3 buttons"),
+      content: const Text("Dialog Box Text with 3 buttons"),
       actions: [cancelButton, noButton, yesButton],
     );
 
@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            showAlertDialogBox(context);
+            showDialogBox(context);
           },
           style: ElevatedButton.styleFrom(
             primary: Colors.blueGrey,
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
               borderRadius: BorderRadius.circular(32.0),
             ),
           ),
-          child: const Text("Show alert Dialog box with 3 buttons"),
+          child: const Text("Show Dialog Box with 3 buttons"),
         ),
       ),
     );
