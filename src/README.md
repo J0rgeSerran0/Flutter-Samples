@@ -6,6 +6,7 @@
 - [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
 - [`Horizotal Toolbar`](#horizontal_toolbar)
 - [`Linear Loading Indicator`](#linear_loading_indicator)
+- [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
 > This sample shows a typical Alert Dialog Box
@@ -14,13 +15,13 @@
 
 
 ## <a name="bottom_navigation_bar"></a>[**bottom_navigation_bar**](bottom_navigation_bar/lib/main.dart)
-> This sample shows a typical bottom navigation bar
+> This sample shows a typical Bottom Navigation Bar
 
 ![Flutter Sample - Bottom Navigation Bar](images/flutter_sample-Bottom_Navigation_Bar.png)
 
 
 ## <a name="circular_loading_indicator"></a>[**circular_loading_indicator**](circular_loading_indicator/lib/main.dart)
-> This sample shows a circular loading indicator
+> This sample shows a Circular Loading Indicator
 
 ![Flutter Sample - Circular Loading Indicator](images/flutter_sample-Circular_Loading_Indicator.png)
 
@@ -44,9 +45,15 @@
 
 
 ## <a name="linear_loading_indicator"></a>[**linear_loading_indicator**](linear_loading_indicator/lib/main.dart)
-> This sample shows a linear loading indicator
+> This sample shows a Linear Loading Indicator
 
 ![Flutter Sample - Linear Loading Indicator](images/flutter_sample-Linear_Loading_Indicator.png)
+
+
+## <a name="rounded_bottom_navigation_bar"></a>[**rounded_bottom_navigation_bar**](rounded_bottom_navigation_bar/lib/main.dart)
+> This sample shows a Rounded Bottom Navigation bar
+
+![Flutter Sample - Linear Loading Indicator](images/flutter_sample-Rounded_Bottom_Navigation_Bar.png)
 
 
 ---
