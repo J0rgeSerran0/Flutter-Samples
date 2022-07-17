@@ -6,6 +6,7 @@
 - [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
 - [`Horizotal Toolbar`](#horizontal_toolbar)
 - [`Linear Loading Indicator`](#linear_loading_indicator)
+- [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
