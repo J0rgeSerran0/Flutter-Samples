@@ -19,7 +19,7 @@
 
 ## <a name="circular_loading_indicator"></a>[**circular_loading_indicator**](circular_loading_indicator/lib/main.dart)
 > This sample shows a circular loading indicator
-![Flutter Sample - Circular Loading Indicator](images/flutter_sample-Circular_Loading_Indicador.png)
+![Flutter Sample - Circular Loading Indicator](images/flutter_sample-Circular_Loading_Indicator.png)
 
 
 ## <a name="dialog_box_with_2_buttons"></a>[**dialog_box_with_2_buttons**](dialog_box_with_2_buttons/lib/main.dart)
@@ -39,7 +39,7 @@
 
 ## <a name="linear_loading_indicator"></a>[**linear_loading_indicator**](linear_loading_indicator/lib/main.dart)
 > This sample shows a linear loading indicator
-![Flutter Sample - Linear Loading Indicator](images/flutter_sample-Linear_Loading_Indicador.png)
+![Flutter Sample - Linear Loading Indicator](images/flutter_sample-Linear_Loading_Indicator.png)
 
 
 ---
