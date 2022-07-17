@@ -50,6 +50,12 @@
 ![Flutter Sample - Linear Loading Indicator](images/flutter_sample-Linear_Loading_Indicator.png)
 
 
+## <a name="listtile_with_rounded_borders"></a>[**listtile_with_rounded_borders**](listtile_with_rounded_borders/lib/main.dart)
+> This sample shows a ListTile with Rounded Borders
+
+![Flutter Sample - ListTile with Rounded Borders](images/flutter_sample-ListTile_with_Rounded_Borders.png)
+
+
 ## <a name="rounded_bottom_navigation_bar"></a>[**rounded_bottom_navigation_bar**](rounded_bottom_navigation_bar/lib/main.dart)
 > This sample shows a Rounded Bottom Navigation bar
 

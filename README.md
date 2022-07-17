@@ -9,4 +9,5 @@ Quick Flutter resources and samples
 - `Dialog Box with 3 buttons`
 - `Horizotal Toolbar`
 - `Linear Loading Indicator`
+- `ListTile with Rounded Borders`
 - `Rounded Bottom Navigation Bar`
