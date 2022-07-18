@@ -7,6 +7,7 @@
 - [`Horizotal Toolbar`](#horizontal_toolbar)
 - [`Linear Loading Indicator`](#linear_loading_indicator)
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
+- [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
@@ -57,10 +58,17 @@
 ![Flutter Sample - ListTile with Rounded Borders](images/flutter_sample-ListTile_with_Rounded_Borders.png)
 
 
+## <a name="rating"></a>[**rating**](rating/lib/main.dart)
+- [**rating component**](rating/lib/rating.dart)
+> This sample shows a Rating component, and an app using it
+
+![Flutter Sample - Rating](images/flutter_sample-Rating.png)
+
+
 ## <a name="rounded_bottom_navigation_bar"></a>[**rounded_bottom_navigation_bar**](rounded_bottom_navigation_bar/lib/main.dart)
 > This sample shows a Rounded Bottom Navigation bar
 
-![Flutter Sample - Linear Loading Indicator](images/flutter_sample-Rounded_Bottom_Navigation_Bar.png)
+![Flutter Sample - Rounded Bottom Navigation Bar](images/flutter_sample-Rounded_Bottom_Navigation_Bar.png)
 
 
 ---

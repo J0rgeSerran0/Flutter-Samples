@@ -10,4 +10,5 @@ Quick Flutter resources and samples
 - `Horizotal Toolbar`
 - `Linear Loading Indicator`
 - `ListTile with Rounded Borders`
+- `Rating`
 - `Rounded Bottom Navigation Bar`
