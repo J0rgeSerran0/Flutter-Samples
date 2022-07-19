@@ -1,6 +1,8 @@
 # Samples
 - [`Alert Dialog Box`](#alert_dialog_box)
 - [`Bottom Navigation Bar`](#bottom_navigation_bar)
+- [`Button Multiple Toggle Switch`](#button_multiple_toggle_switch)
+- [`Button Toggle Switch`](#button_toggle_switch)
 - [`Circular Loading Indicator`](#circular_loading_indicator)
 - [`Dialog Box with 2 buttons`](#dialog_box_with_2_buttons)
 - [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
@@ -20,6 +22,18 @@
 > This sample shows a typical Bottom Navigation Bar
 
 ![Flutter Sample - Bottom Navigation Bar](images/flutter_sample-Bottom_Navigation_Bar.png)
+
+
+## <a name="button_multiple_toggle_switch"></a>[**button_multiple_toggle_switch**](button_multiple_toggle_switch/lib/main.dart)
+> This sample shows a toggle switch with a multiple selection
+
+![Flutter Sample - Button Multiple Toggle Switch](images/flutter_sample-Button_Multiple_Toggle_Switch.png)
+
+
+## <a name="button_toggle_switch"></a>[**button_toggle_switch**](button_toggle_switch/lib/main.dart)
+> This sample shows a toggle switch with a single selection
+
+![Flutter Sample - Button Toggle Switch](images/flutter_sample-Button_Toggle_Switch.png)
 
 
 ## <a name="circular_loading_indicator"></a>[**circular_loading_indicator**](circular_loading_indicator/lib/main.dart)
