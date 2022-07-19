@@ -7,7 +7,7 @@ Quick Flutter resources and samples
 ## Visual Studio Code
 I use [`Visual Studio Code`](https://code.visualstudio.com/) as editor code
 
-The extensions I have use are:
+The extensions I use are:
 - [`Awesome Flutter Snippets`](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets)
 - [`Dart`](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
 - [`Flutter`](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
