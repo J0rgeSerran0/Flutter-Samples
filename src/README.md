@@ -73,7 +73,7 @@
 
 
 ## <a name="rating"></a>[**rating**](rating/lib/main.dart)
-- [**rating component**](rating/lib/rating.dart)
+- [**rating component**](rating/lib/components/rating.dart)
 > This sample shows a Rating component, and an app using it
 
 ![Flutter Sample - Rating](images/flutter_sample-Rating.png)

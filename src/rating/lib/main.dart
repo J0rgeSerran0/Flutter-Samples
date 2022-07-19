@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'rating.dart';
+import 'components/rating.dart';
 
 void main() {
   runApp(const MyApp());
