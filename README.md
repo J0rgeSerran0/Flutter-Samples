@@ -19,6 +19,7 @@ The extensions I use are:
 - `Button Multiple Toggle Switch`
 - `Button Toggle Switch`
 - `Circular Loading Indicator`
+- `Combo Box`
 - `Dialog Box with 2 buttons`
 - `Dialog Box with 3 buttons`
 - `Horizotal Toolbar`

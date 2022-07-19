@@ -4,6 +4,7 @@
 - [`Button Multiple Toggle Switch`](#button_multiple_toggle_switch)
 - [`Button Toggle Switch`](#button_toggle_switch)
 - [`Circular Loading Indicator`](#circular_loading_indicator)
+- [`Combo Box`](#combo_box)
 - [`Dialog Box with 2 buttons`](#dialog_box_with_2_buttons)
 - [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
 - [`Horizotal Toolbar`](#horizontal_toolbar)
@@ -40,6 +41,12 @@
 > This sample shows a Circular Loading Indicator
 
 ![Flutter Sample - Circular Loading Indicator](images/flutter_sample-Circular_Loading_Indicator.png)
+
+
+## <a name="combo_box"></a>[**combo_box**](combo_box/lib/main.dart)
+> This sample shows a typical Combo Box
+
+![Flutter Sample - Combo Box](images/flutter_sample-Combo_Box.png)
 
 
 ## <a name="dialog_box_with_2_buttons"></a>[**dialog_box_with_2_buttons**](dialog_box_with_2_buttons/lib/main.dart)
