@@ -14,7 +14,7 @@ The extensions I use are:
 - [`Material Icon Theme`](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 ## [Samples](src/README.md)
-![#F28082](https://via.placeholder.com/30x15/#F28082/000000.png?text=+) All samples tested with Flutter v3
+![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with Flutter v3
 
 - `Alert Dialog Box`
 - `Bottom Navigation Bar`
