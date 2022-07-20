@@ -5,6 +5,7 @@
 - [`Button Toggle Switch`](#button_toggle_switch)
 - [`Circular Loading Indicator`](#circular_loading_indicator)
 - [`Combo Box`](#combo_box)
+- [`Date Picker`](#date_picker)
 - [`Dialog Box with 2 buttons`](#dialog_box_with_2_buttons)
 - [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
 - [`Form Dialog Box`](#form_dialog_box)
@@ -50,6 +51,12 @@
 > This sample shows a typical Combo Box
 
 ![Flutter Sample - Combo Box](images/flutter_sample-Combo_Box.png)
+
+
+## <a name="date_picker"></a>[**date_picker**](date_picker/lib/main.dart)
+> This sample shows a typical Date Picker
+
+![Flutter Sample - Date Picker(images/flutter_sample-Date_Picker.png)
 
 
 ## <a name="dialog_box_with_2_buttons"></a>[**dialog_box_with_2_buttons**](dialog_box_with_2_buttons/lib/main.dart)

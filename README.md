@@ -22,6 +22,7 @@ The extensions I use are:
 - `Button Toggle Switch`
 - `Circular Loading Indicator`
 - `Combo Box`
+- `Date Picker`
 - `Dialog Box with 2 buttons`
 - `Dialog Box with 3 buttons`
 - `Form Dialog Box`
