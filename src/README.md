@@ -56,7 +56,7 @@
 ## <a name="date_picker"></a>[**date_picker**](date_picker/lib/main.dart)
 > This sample shows a typical Date Picker
 
-![Flutter Sample - Date Picker(images/flutter_sample-Date_Picker.png)
+![Flutter Sample - Date Picker](images/flutter_sample-Date_Picker.png)
 
 
 ## <a name="dialog_box_with_2_buttons"></a>[**dialog_box_with_2_buttons**](dialog_box_with_2_buttons/lib/main.dart)
