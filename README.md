@@ -28,3 +28,4 @@ The extensions I use are:
 - `ListTile with Rounded Borders`
 - `Rating`
 - `Rounded Bottom Navigation Bar`
+- `Text Field Search Box`

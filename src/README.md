@@ -99,5 +99,11 @@
 ![Flutter Sample - Rounded Bottom Navigation Bar](images/flutter_sample-Rounded_Bottom_Navigation_Bar.png)
 
 
+## <a name="text_field_search_box"></a>[**text_field_search_box**](text_field_search_box/lib/main.dart)
+> This sample shows a typical Text Field Search Box used in app to search information
+
+![Flutter Sample - Text Field Search Box](images/flutter_sample-Text_Field_Search_Box.png)
+
+
 ---
 [Home](../README.md)
