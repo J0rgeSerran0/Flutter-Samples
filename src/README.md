@@ -13,6 +13,7 @@
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
+- [`Text Field Search Box`](#text_field_search_box)
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
 > This sample shows a typical Alert Dialog Box
