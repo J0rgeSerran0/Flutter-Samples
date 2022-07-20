@@ -22,6 +22,7 @@ The extensions I use are:
 - `Combo Box`
 - `Dialog Box with 2 buttons`
 - `Dialog Box with 3 buttons`
+- `Form Dialog Box`
 - `Horizotal Toolbar`
 - `Linear Loading Indicator`
 - `ListTile with Rounded Borders`

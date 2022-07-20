@@ -7,6 +7,7 @@
 - [`Combo Box`](#combo_box)
 - [`Dialog Box with 2 buttons`](#dialog_box_with_2_buttons)
 - [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
+- [`Form Dialog Box`](#form_dialog_box)
 - [`Horizotal Toolbar`](#horizontal_toolbar)
 - [`Linear Loading Indicator`](#linear_loading_indicator)
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
@@ -59,6 +60,12 @@
 > This sample shows a typical Dialog Box with 3 buttons (cancel, no, yes)
 
 ![Flutter Sample - Dialog Box with 3 buttons](images/flutter_sample-Dialog_Box_with_3_buttons.png)
+
+
+## <a name="form_dialog_box"></a>[**form_dialog_box**](form_dialog_box/lib/main.dart)
+> This sample shows a Form Dialog Box to fill in some data to do something with it 
+
+![Flutter Sample - Form Dialog Box](images/flutter_sample-Form_Dialog_Box.png)
 
 
 ## <a name="horizontal_toolbar"></a>[**horizontal_toolbar**](horizontal_toolbar/lib/main.dart)
