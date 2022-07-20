@@ -26,6 +26,7 @@ The extensions I use are:
 - `Dialog Box with 3 buttons`
 - `Form Dialog Box`
 - `Horizotal Toolbar`
+- `Icon Text`
 - `Linear Loading Indicator`
 - `ListTile with Rounded Borders`
 - `Rating`

@@ -9,6 +9,7 @@
 - [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
 - [`Form Dialog Box`](#form_dialog_box)
 - [`Horizotal Toolbar`](#horizontal_toolbar)
+- [`Icon Text`](#icon_text)
 - [`Linear Loading Indicator`](#linear_loading_indicator)
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
 - [`Rating`](#rating)
@@ -73,6 +74,12 @@
 > This sample shows a typical toolbar with separator, that is common in desktop environments like Windows or macOS
 
 ![Flutter Sample - Horizontal Toolbar](images/flutter_sample-Horizontal_Toolbar.png)
+
+
+## <a name="icon_text"></a>[**icon_text**](icon_text/lib/main.dart)
+> This sample shows a typical button that includes an image and text
+
+![Flutter Sample - Icon Text](images/flutter_sample-Icon_Text.png)
 
 
 ## <a name="linear_loading_indicator"></a>[**linear_loading_indicator**](linear_loading_indicator/lib/main.dart)
