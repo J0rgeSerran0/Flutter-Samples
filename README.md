@@ -33,4 +33,5 @@ The extensions I use are:
 - `Rating`
 - `Rounded Bottom Navigation Bar`
 - `Switch Button`
+- `Switch Cover Button`
 - `Text Field Search Box`

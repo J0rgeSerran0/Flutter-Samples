@@ -16,6 +16,7 @@
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
 - [`Switch Button`](#switch_button)
+- [`Switch Cover Button`](#switch_cover_button)
 - [`Text Field Search Box`](#text_field_search_box)
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
@@ -120,6 +121,13 @@
 > This sample shows a typical Switch Button
 
 ![Flutter Sample - Switch Button](images/flutter_sample-Switch_Button.png)
+
+
+## <a name="switch_cover_button"></a>[**switch_cover_button**](switch_cover_button/lib/main.dart)
+- [**switch_cover_button component**](switch_cover_button/lib/components/switch_cover_button.dart)
+> This sample shows a typical Switch Button but using the [Cupertino Widget](https://docs.flutter.dev/development/ui/widgets/cupertino)
+
+![Flutter Sample - Switch Cover Button](images/flutter_sample-Switch_Cover_Button.png)
 
 
 ## <a name="text_field_search_box"></a>[**text_field_search_box**](text_field_search_box/lib/main.dart)
