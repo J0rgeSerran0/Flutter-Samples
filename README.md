@@ -32,4 +32,5 @@ The extensions I use are:
 - `ListTile with Rounded Borders`
 - `Rating`
 - `Rounded Bottom Navigation Bar`
+- `Switch Button`
 - `Text Field Search Box`

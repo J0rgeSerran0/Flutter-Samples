@@ -15,6 +15,7 @@
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
+- [`Switch Button`](#switch_button)
 - [`Text Field Search Box`](#text_field_search_box)
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
@@ -112,6 +113,13 @@
 > This sample shows a Rounded Bottom Navigation bar
 
 ![Flutter Sample - Rounded Bottom Navigation Bar](images/flutter_sample-Rounded_Bottom_Navigation_Bar.png)
+
+
+## <a name="switch_button"></a>[**switch_button**](switch_button/lib/main.dart)
+- [**switch_button component**](switch_button/lib/components/switch_button.dart)
+> This sample shows a typical Switch Button
+
+![Flutter Sample - Switch Button](images/flutter_sample-Switch_Button.png)
 
 
 ## <a name="text_field_search_box"></a>[**text_field_search_box**](text_field_search_box/lib/main.dart)
