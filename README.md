@@ -37,10 +37,13 @@ The extensions I use are:
 - `Switch Cover Button`
 - `Text Field Search Box`
 
-## Very simple samples
 
-### Simple Sample without AppBar
-> This is a very simple sample of a Flutter app, in a black screen. You can use it as a canvas of a blank app
+---
+
+## Quick Templates
+
+### Template without AppBar
+> This is a template of a Flutter app with a black screen. You can use it as a canvas of a blank app
 
 ```dart
 import 'package:flutter/material.dart';
@@ -86,8 +89,8 @@ class MyPageAppState extends State<MyPageApp> {
 }
 ```
 
-### Simple Sample with AppBar
-> This is a very simple sample of a Flutter app with an App Bar. You can use it as a canvas of a blank app
+### Template with AppBar
+> This is a template of a Flutter app with an App Bar. You can use it as a canvas of a blank app
 
 ```dart
 import 'package:flutter/material.dart';
