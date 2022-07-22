@@ -47,16 +47,39 @@ void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   @override
-  State<MyApp> createState() => MyAppState();
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MyPageApp(),
+    );
+  }
 }
 
-class MyAppState extends State<MyApp> with TickerProviderStateMixin {
+class MyPageApp extends StatefulWidget {
+  const MyPageApp({Key? key}) : super(key: key);
+
+  @override
+  State<MyPageApp> createState() => MyPageAppState();
+}
+
+class MyPageAppState extends State<MyPageApp> {
   @override
   Widget build(BuildContext context) {
-    return const Center();
+    return Scaffold(
+      body: Container(
+        color: Colors.white,
+        child: const Center(
+          child: Text(
+            'demo',
+            style: TextStyle(
+                color: Colors.pink, fontSize: 48, fontWeight: FontWeight.bold),
+          ),
+        ),
+      ),
+    );
   }
 }
 ```
