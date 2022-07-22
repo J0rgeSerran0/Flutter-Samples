@@ -37,7 +37,9 @@ The extensions I use are:
 - `Switch Cover Button`
 - `Text Field Search Box`
 
-## Very simple sample
+## Very simple samples
+
+### Simple Sample without AppBar
 > This is a very simple sample of a Flutter app, in a black screen. You can use it as a canvas of a blank app
 
 ```dart
@@ -77,6 +79,67 @@ class MyPageAppState extends State<MyPageApp> {
             style: TextStyle(
                 color: Colors.pink, fontSize: 48, fontWeight: FontWeight.bold),
           ),
+        ),
+      ),
+    );
+  }
+}
+```
+
+### Simple Sample with AppBar
+> This is a very simple sample of a Flutter app with an App Bar. You can use it as a canvas of a blank app
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Demo Home Page'),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  final String title;
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+        backgroundColor: const Color.fromARGB(97, 60, 90, 200),
+        foregroundColor: Colors.white70,
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const <Widget>[
+            Text(
+              'demo',
+              style: TextStyle(
+                  color: Colors.blue,
+                  fontSize: 48,
+                  fontWeight: FontWeight.bold),
+            ),
+          ],
         ),
       ),
     );
