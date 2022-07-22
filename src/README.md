@@ -1,6 +1,7 @@
 # Samples
 - [`Alert Dialog Box`](#alert_dialog_box)
 - [`Animated Builder`](#animated_builder)
+- [`Animated Cross Fade`](#animated_cross_fade)
 - [`Bottom Navigation Bar`](#bottom_navigation_bar)
 - [`Button Multiple Toggle Switch`](#button_multiple_toggle_switch)
 - [`Button Toggle Switch`](#button_toggle_switch)
@@ -31,6 +32,12 @@
 > This sample shows a simple animation in a Flutter App
 
 ![Flutter Sample - Animated Builder](images/flutter_sample-Animated_Builder.png)
+
+
+## <a name="animated_cross_fade"></a>[**animated_cross_fade**](animated_cross_fade/lib/main.dart)
+> This sample shows a simple animation using `AnimatedCrossFade`
+
+![Flutter Sample - Animated Cross Fade](images/flutter_sample-Animated_Cross_Fade.png)
 
 
 ## <a name="bottom_navigation_bar"></a>[**bottom_navigation_bar**](bottom_navigation_bar/lib/main.dart)

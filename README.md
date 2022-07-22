@@ -14,10 +14,11 @@ The extensions I use are:
 - [`Material Icon Theme`](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 ## [Samples](src/README.md)
-![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with Flutter v3
+![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 
 - `Alert Dialog Box`
 - `Animated Builder`
+- `Animated Cross Fade`
 - `Bottom Navigation Bar`
 - `Button Multiple Toggle Switch`
 - `Button Toggle Switch`
