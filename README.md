@@ -17,6 +17,7 @@ The extensions I use are:
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with Flutter v3
 
 - `Alert Dialog Box`
+- `Animated Builder`
 - `Bottom Navigation Bar`
 - `Button Multiple Toggle Switch`
 - `Button Toggle Switch`
@@ -35,3 +36,27 @@ The extensions I use are:
 - `Switch Button`
 - `Switch Cover Button`
 - `Text Field Search Box`
+
+## Very simple sample
+> This is a very simple sample of a Flutter app, in a black screen. You can use it as a canvas of a blank app
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+  @override
+  State<MyApp> createState() => MyAppState();
+}
+
+class MyAppState extends State<MyApp> with TickerProviderStateMixin {
+  @override
+  Widget build(BuildContext context) {
+    return const Center();
+  }
+}
+```

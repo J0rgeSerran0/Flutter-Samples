@@ -1,5 +1,6 @@
 # Samples
 - [`Alert Dialog Box`](#alert_dialog_box)
+- [`Animated Builder`](#animated_builder)
 - [`Bottom Navigation Bar`](#bottom_navigation_bar)
 - [`Button Multiple Toggle Switch`](#button_multiple_toggle_switch)
 - [`Button Toggle Switch`](#button_toggle_switch)
@@ -19,10 +20,17 @@
 - [`Switch Cover Button`](#switch_cover_button)
 - [`Text Field Search Box`](#text_field_search_box)
 
+
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
 > This sample shows a typical Alert Dialog Box
 
 ![Flutter Sample - Alert Dialog Box](images/flutter_sample-Alert_Dialog_Box.png)
+
+
+## <a name="animated_builder"></a>[**animated_builder**](animated_builder/lib/main.dart)
+> This sample shows a simple animation in a Flutter App
+
+![Flutter Sample - Animated Builder](images/flutter_sample-Animated_Builder.png)
 
 
 ## <a name="bottom_navigation_bar"></a>[**bottom_navigation_bar**](bottom_navigation_bar/lib/main.dart)
