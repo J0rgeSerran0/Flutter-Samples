@@ -19,6 +19,7 @@ The extensions I use are:
 - `Alert Dialog Box`
 - `Animated Builder`
 - `Animated Cross Fade`
+- `Animated Default Text Style`
 - `Bottom Navigation Bar`
 - `Button Multiple Toggle Switch`
 - `Button Toggle Switch`

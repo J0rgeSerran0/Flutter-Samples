@@ -2,6 +2,7 @@
 - [`Alert Dialog Box`](#alert_dialog_box)
 - [`Animated Builder`](#animated_builder)
 - [`Animated Cross Fade`](#animated_cross_fade)
+- [`Animated Default Text Style`](#animated_default_text_style)
 - [`Bottom Navigation Bar`](#bottom_navigation_bar)
 - [`Button Multiple Toggle Switch`](#button_multiple_toggle_switch)
 - [`Button Toggle Switch`](#button_toggle_switch)
@@ -38,6 +39,12 @@
 > This sample shows a simple animation using `AnimatedCrossFade`
 
 ![Flutter Sample - Animated Cross Fade](images/flutter_sample-Animated_Cross_Fade.png)
+
+
+## <a name="animated_default_text_style"></a>[**animated_default_text_style**](animated_default_text_style/lib/main.dart)
+> This sample shows a text animated using `AnimatedDefaultTextStyle`
+
+![Flutter Sample - Animated Default Text Style](images/flutter_sample-Animated_Default_Text_Style.png)
 
 
 ## <a name="bottom_navigation_bar"></a>[**bottom_navigation_bar**](bottom_navigation_bar/lib/main.dart)
