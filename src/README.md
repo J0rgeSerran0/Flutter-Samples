@@ -40,37 +40,49 @@ This sample shows a simple animation in a Flutter App
 
 
 ## <a name="animated_cross_fade"></a>[**animated_cross_fade**](animated_cross_fade/lib/main.dart)
-> This sample shows a simple animation using `AnimatedCrossFade`
+This sample shows a simple animation using `AnimatedCrossFade`
+
+> <a href="https://dartpad.dev/72bc06fbca7ad156c56e5f3594a773a8" target="_blank">This code in action using DartPad</a>
 
 ![Flutter Sample - Animated Cross Fade](images/flutter_sample-Animated_Cross_Fade.png)
 
 
 ## <a name="animated_default_text_style"></a>[**animated_default_text_style**](animated_default_text_style/lib/main.dart)
-> This sample shows a text animated using `AnimatedDefaultTextStyle`
+This sample shows a text animated using `AnimatedDefaultTextStyle`
+
+> <a href="https://dartpad.dev/e826633a2c7c79f42ba0755afbc55497" target="_blank">This code in action using DartPad</a>
 
 ![Flutter Sample - Animated Default Text Style](images/flutter_sample-Animated_Default_Text_Style.png)
 
 
 ## <a name="bottom_navigation_bar"></a>[**bottom_navigation_bar**](bottom_navigation_bar/lib/main.dart)
-> This sample shows a typical Bottom Navigation Bar
+This sample shows a typical Bottom Navigation Bar
+
+> <a href="https://dartpad.dev/063161a922c5dc09eb9e81bff21c1cd6" target="_blank">This code in action using DartPad</a>
 
 ![Flutter Sample - Bottom Navigation Bar](images/flutter_sample-Bottom_Navigation_Bar.png)
 
 
 ## <a name="button_multiple_toggle_switch"></a>[**button_multiple_toggle_switch**](button_multiple_toggle_switch/lib/main.dart)
-> This sample shows a toggle switch with a multiple selection
+This sample shows a toggle switch with a multiple selection
+
+> <a href="https://dartpad.dev/314c2d5409ceb5c01d9997751a52317b" target="_blank">This code in action using DartPad</a>
 
 ![Flutter Sample - Button Multiple Toggle Switch](images/flutter_sample-Button_Multiple_Toggle_Switch.png)
 
 
 ## <a name="button_toggle_switch"></a>[**button_toggle_switch**](button_toggle_switch/lib/main.dart)
-> This sample shows a toggle switch with a single selection
+This sample shows a toggle switch with a single selection
+
+> <a href="https://dartpad.dev/0460832521b5009486468569905fe3a4" target="_blank">This code in action using DartPad</a>
 
 ![Flutter Sample - Button Toggle Switch](images/flutter_sample-Button_Toggle_Switch.png)
 
 
 ## <a name="circular_loading_indicator"></a>[**circular_loading_indicator**](circular_loading_indicator/lib/main.dart)
-> This sample shows a Circular Loading Indicator
+This sample shows a Circular Loading Indicator
+
+> <a href="https://dartpad.dev/8d58bcec8dfc2e91cfa815ed1395c4bf" target="_blank">This code in action using DartPad</a>
 
 ![Flutter Sample - Circular Loading Indicator](images/flutter_sample-Circular_Loading_Indicator.png)
 

@@ -60,11 +60,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const SizedBox(height: 20),
             ToggleButtons(
-              children: <Widget>[
-                Icon(Icons.free_breakfast),
-                Icon(Icons.wifi),
-                Icon(Icons.local_parking),
-              ],
               isSelected: toggleSelected,
               onPressed: (int index) {
                 debugPrint("Click in the element $index");
@@ -77,13 +72,14 @@ class _MyHomePageState extends State<MyHomePage> {
               fillColor: Colors.pink,
               borderRadius: BorderRadius.circular(12),
               selectedBorderColor: Colors.pink[300],
+              children: const <Widget>[
+                Icon(Icons.free_breakfast),
+                Icon(Icons.wifi),
+                Icon(Icons.local_parking),
+              ],
             ),
             const SizedBox(height: 20),
             ElevatedButton(
-              child: Text(
-                "Accept",
-                style: TextStyle(color: Colors.white),
-              ),
               onPressed: () {
                 debugPrint('Element 0: ${toggleSelected[0]}');
                 debugPrint('Element 1: ${toggleSelected[1]}');
@@ -101,6 +97,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(24),
                           side: const BorderSide(color: Colors.black38)))),
+              child: const Text(
+                "Accept",
+                style: TextStyle(color: Colors.white),
+              ),
             ),
           ],
         ),
