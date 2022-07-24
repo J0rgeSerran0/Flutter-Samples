@@ -24,13 +24,15 @@
 
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)
-> This sample shows a typical Alert Dialog Box
+- This sample shows a typical Alert Dialog Box
+- <a href="https://dartpad.dev/d82f3f5a13246ecf8daa1ae22adfabfe" target="_blank">This code in action using DartPad</a>
 
 ![Flutter Sample - Alert Dialog Box](images/flutter_sample-Alert_Dialog_Box.png)
 
 
 ## <a name="animated_builder"></a>[**animated_builder**](animated_builder/lib/main.dart)
-> This sample shows a simple animation in a Flutter App
+- This sample shows a simple animation in a Flutter App
+- <a href="https://dartpad.dev/060beb5588342fce5b7f4592200cd807" target="_blank">This code in action using DartPad</a>
 
 ![Flutter Sample - Animated Builder](images/flutter_sample-Animated_Builder.png)
 
