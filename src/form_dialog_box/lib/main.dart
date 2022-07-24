@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   Navigator.of(context).pop();
                                 })
                           ]),
-                      content: Container(
+                      content: SizedBox(
                         width: double.maxFinite,
                         child: ListView(
                           shrinkWrap: true,
@@ -170,7 +170,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         (comments != '' ? Icons.comment : null),
                         color: Colors.white,
                       ),
-                      VerticalDivider(width: 10),
+                      const VerticalDivider(width: 10),
                       Text(
                         comments,
                         style: const TextStyle(

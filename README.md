@@ -13,6 +13,9 @@ The extensions I use are:
 - [`Flutter`](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
 - [`Material Icon Theme`](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
+## Sharing and Testing the Code
+- To test the samples online, I am using [DartPad](https://dartpad.dev). There is a [Sharing Guide](https://github.com/dart-lang/dart-pad/wiki/Sharing-Guide) with details about how to share your samples and code online for other people
+
 ## [Samples](src/README.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 

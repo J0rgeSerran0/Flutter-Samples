@@ -31,7 +31,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<String> items = ["Barcelona", "Cádiz", "Madrid", "Zaragoza"];
-  String dropdownValue = 'Barcelona';
+  String dropdownValue = 'Cádiz';
 
   @override
   Widget build(BuildContext context) {

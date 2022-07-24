@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 typedef RatingTapCallback = void Function(int rating);
 
 class StarRating extends StatelessWidget {
-  StarRating(
+  const StarRating(
       {this.lenght = 1,
       this.rating = 0,
       this.spacing = 0,
