@@ -16,6 +16,9 @@ The extensions I use are:
 ## Sharing and Testing the Code
 - To test the samples online, I am using [DartPad](https://dartpad.dev). There is a [Sharing Guide](https://github.com/dart-lang/dart-pad/wiki/Sharing-Guide) with details about how to share your samples and code online for other people
 
+## Guides and Learning Paths
+- [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
+
 ## [Samples](src/README.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 
