@@ -1,8 +1,5 @@
-# Flutter-Samples
-Quick Flutter resources and samples
-
-1. Create the flutter project `flutter create <name>`
-2. Overwrite the `lib` folder with the sample code
+# Start here!
+- [`Get Started - Install`](https://docs.flutter.dev/get-started/install)
 
 ## Visual Studio Code
 I use [`Visual Studio Code`](https://code.visualstudio.com/) as editor code
@@ -18,6 +15,14 @@ The extensions I use are:
 
 ## Guides and Learning Paths
 - [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
+
+---
+
+# Flutter-Samples
+Quick Flutter resources and samples
+
+1. Create the flutter project `flutter create <name>`
+2. Overwrite the `lib` folder with the sample code
 
 ## [Samples](src/README.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
