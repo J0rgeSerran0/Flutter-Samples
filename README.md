@@ -5,6 +5,7 @@
 - [Android Studio - Download](https://developer.android.com/studio)
 
 ## Xcode
+- [Minimum requirements and supported SDKs](https://developer.apple.com/support/xcode/)
 - [Xcode Releases](https://xcodereleases.com/)
 
 ## Visual Studio Code
