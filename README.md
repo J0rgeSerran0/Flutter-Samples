@@ -24,6 +24,10 @@ The error should disappear now
 - [Minimum requirements and supported SDKs](https://developer.apple.com/support/xcode/)
 - [Xcode Releases](https://xcodereleases.com/)
 
+## Troubleshooting CocoaPods
+- [Getting Started - CocoaPods](https://guides.cocoapods.org/using/getting-started.html#installation)
+- [Guide to resolve problems with CocoaPods](https://guides.cocoapods.org/using/troubleshooting#installing-cocoapods)
+
 ## Update to macOS 11.x
 - [OpenCore Legacy Patcher - Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html#macbook-pro)
 - [How to Install MacOS Monterey 12 on an Unsupported Mac, MacBook, iMac or Mac Mini in 2022](https://www.youtube.com/watch?v=McmO7xP4wvI)
