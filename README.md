@@ -8,6 +8,35 @@
 - [Minimum requirements and supported SDKs](https://developer.apple.com/support/xcode/)
 - [Xcode Releases](https://xcodereleases.com/)
 
+## Update to macOS 11.x
+- [OpenCore Legacy Patcher - Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html#macbook-pro)
+- [How to Install MacOS Monterey 12 on an Unsupported Mac, MacBook, iMac or Mac Mini in 2022](https://www.youtube.com/watch?v=McmO7xP4wvI)
+
+| VERSIÓN                    | NOMBRE                       | FECHA DE LANZAMIENTO |
+|----------------------------|------------------------------|----------------------|
+| RHAPSODY DEVELOPER RELEASE | Grail1Z4 / Titan1U (Interno) | Agosto, 1997         |
+| MAC OS X SERVER 1.0        | Hera (Interno)               | Marzo, 1999          |
+| MAC OS X DEVELOPER PREVIEW | -                            | Marzo, 1999          |
+| MAC OS X PUBLIC BETA       | Kodiak (Interno)             | Septiembre, 2000     |
+| MAC OS X 10.0              | Cheetah                      | Marzo, 2001          |
+| MAC OS X 10.1              | Puma                         | Septiembre, 2001     |
+| MAC OS X 10.2              | Jaguar                       | Agosto, 2002         |
+| MAC OS X 10.3              | Panther                      | Octubre, 2003        |
+| MAC OS X 10.4              | Tiger                        | Abril, 2005          |
+| MAC OS X 10.5              | Leopard                      | Octubre, 2007        |
+| MAC OS X 10.6              | Snow Leopard                 | Agosto, 2009         |
+| MAC OS X 10.7              | Lion                         | Julio, 2011          |
+| OS X 10.8                  | Mountain Lion                | Julio, 2012          |
+| OS X 10.9                  | Mavericks                    | Octubre, 2013        |
+| OS X 10.10                 | Yosemite                     | Octubre, 2014        |
+| OS X 10.11                 | El Capitan                   | Septiembre, 2015     |
+| MACOS 10.12                | Sierra                       | Septiembre, 2016     |
+| MACOS 10.13                | High Sierra                  | Septiembre, 2017     |
+| MACOS 10.14                | Mojave                       | Septiembre, 2018     |
+| MACOS 10.15                | Catalina                     | Octubre, 2019        |
+| MACOS 11                   | Big Sur                      | Noviembre, 2020      |
+| MACOS 12                   | Monterey                     | Octubre, 2021        |
+
 ## Visual Studio Code
 I use [`Visual Studio Code`](https://code.visualstudio.com/) as editor code
 
