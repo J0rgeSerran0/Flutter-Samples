@@ -4,6 +4,22 @@
 ## Android Studio
 - [Android Studio - Download](https://developer.android.com/studio)
 
+### Error - Android sdkmanager not found. Update to the latest Android SDK and ensure that the cmdline-tools are installed to resolve this
+
+To solve this issue you need to install Android SDK Tools and Android SDK Command-line Tools on SDK Manager
+
+- Open **Android Studio**
+- Open **SDK Manager**
+- Select the tab **SDK Tools**
+- Uncheck the option *Hide Obsolete Packages*, and select **Android SDK Tools** and **Android SDK Command-line Tools**
+- Press the **OK** button to install these packages
+
+Execute the command `flutter doctor --android-licenses` to check if the error still occurs then check the **android_sdk_path\Android\SDK\cmdline-tools**
+
+If you find more than one *latest* folders, delete the last one and remane the other *latest* folder (like *latest-2* for example) to *latest*
+
+The error should disappear now
+
 ## Xcode
 - [Minimum requirements and supported SDKs](https://developer.apple.com/support/xcode/)
 - [Xcode Releases](https://xcodereleases.com/)
