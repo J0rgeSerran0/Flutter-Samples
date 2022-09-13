@@ -35,6 +35,7 @@ On you mac, open a terminal window and execute the next command to know what typ
 - [OpenCore Legacy Patcher - Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html)
 - [How to Install MacOS Monterey 12 on an Unsupported Mac, MacBook, iMac or Mac Mini in 2022](https://www.youtube.com/watch?v=McmO7xP4wvI)
 - [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/START.html)
+- [OpenCore Releases](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 
 | VERSIÓN                    | NOMBRE                       | FECHA DE LANZAMIENTO |
 |----------------------------|------------------------------|----------------------|
