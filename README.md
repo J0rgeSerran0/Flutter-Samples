@@ -28,9 +28,13 @@ The error should disappear now
 - [Getting Started - CocoaPods](https://guides.cocoapods.org/using/getting-started.html#installation)
 - [Guide to resolve problems with CocoaPods](https://guides.cocoapods.org/using/troubleshooting#installing-cocoapods)
 
-## Update to macOS 11.x
-- [OpenCore Legacy Patcher - Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html#macbook-pro)
+## Update to macOS 11.x or upper
+On you mac, open a terminal window and execute the next command to know what type of mac os you have
+
+`system_profiler SPHardwareDataType | grep 'Model Identifier'` 
+- [OpenCore Legacy Patcher - Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html)
 - [How to Install MacOS Monterey 12 on an Unsupported Mac, MacBook, iMac or Mac Mini in 2022](https://www.youtube.com/watch?v=McmO7xP4wvI)
+- [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/START.html)
 
 | VERSIÓN                    | NOMBRE                       | FECHA DE LANZAMIENTO |
 |----------------------------|------------------------------|----------------------|
