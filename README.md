@@ -34,6 +34,7 @@ On you mac, open a terminal window and execute the next command to know what typ
 `system_profiler SPHardwareDataType | grep 'Model Identifier'` 
 - [OpenCore Legacy Patcher - Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html)
 - [How to Install MacOS Monterey 12 on an Unsupported Mac, MacBook, iMac or Mac Mini in 2022](https://www.youtube.com/watch?v=McmO7xP4wvI)
+- [NEW 2022! Monterey on Unsupported Macs [2008-2015] OpenCore Legacy Patcher](https://www.youtube.com/watch?v=-huRykhjs6g)
 - [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/START.html)
 - [OpenCore Releases](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 
