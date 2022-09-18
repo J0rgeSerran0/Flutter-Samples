@@ -87,6 +87,7 @@ Quick Flutter resources and samples
 1. Create the flutter project `flutter create <name>`
 2. Overwrite the `lib` folder with the sample code
 3. Optional `flutter packages get` and `flutter run`
+4. Optional `flutter upgrade` (to upgrade Flutter with the last stable version)
 
 ## [General Samples](src/README.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
