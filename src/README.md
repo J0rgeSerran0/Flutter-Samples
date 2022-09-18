@@ -1,4 +1,4 @@
-# Samples
+# General Samples
 - [`Alert Dialog Box`](#alert_dialog_box)
 - [`Animated Builder`](#animated_builder)
 - [`Animated Cross Fade`](#animated_cross_fade)
