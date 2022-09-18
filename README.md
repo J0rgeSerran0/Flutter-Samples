@@ -73,6 +73,16 @@ The extensions I use are:
 - [`Flutter`](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
 - [`Material Icon Theme`](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
+## Firebase
+1. [Install Firebase CLI](https://firebase.google.com/docs/cli#setup_update_cli) or using the automatic install script `curl -sL https://firebase.tools | bash`
+2. Log into Firebase `firebase login`
+3. Test that the CLI is properly installed `firebase projects:list`
+4. Optional - update the CLI version (macOS) `curl -sL https://firebase.tools | upgrade=true bash`
+
+- [Sign into Firebase](https://console.firebase.google.com/)
+- [Add Firebase to your Flutter app](https://firebase.google.com/docs/flutter/setup?platform=ios)
+
+
 ## Sharing and Testing the Code
 - To test the samples online, I am using [DartPad](https://dartpad.dev). There is a [Sharing Guide](https://github.com/dart-lang/dart-pad/wiki/Sharing-Guide) with details about how to share your samples and code online for other people
 
