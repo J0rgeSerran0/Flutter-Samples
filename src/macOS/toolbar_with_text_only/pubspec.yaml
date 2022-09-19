@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  macos_ui: ^1.7.1
+  macos_ui: ^1.7.5
   fluent_ui: ^3.12.0
 
   cupertino_icons: ^1.0.2
