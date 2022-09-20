@@ -1,5 +1,8 @@
 # Start here!
 - [`Get Started - Install`](https://docs.flutter.dev/get-started/install)
+- [`General Samples`](#general_samples)
+- [`macOS Samples`](#macos_samples)
+
 
 ## Android Studio
 - [Android Studio - Download](https://developer.android.com/studio)
@@ -99,7 +102,7 @@ Quick Flutter resources and samples
 3. Optional `flutter packages get` and `flutter run`
 4. Optional `flutter upgrade` (to upgrade Flutter with the last stable version)
 
-## [General Samples](src/README.md)
+## <a name="general_samples"></a>[**General Samples**](src/README.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 
 - `Alert Dialog Box`
@@ -126,7 +129,7 @@ Quick Flutter resources and samples
 - `Text Field Search Box`
 
 
-## [macOs Samples](src/README_macOS.md)
+## <a name="macos_samples"></a>[**macOS Samples**](src/README_macOS.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 
 - `CheckBox with button`
