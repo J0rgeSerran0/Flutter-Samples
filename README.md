@@ -136,6 +136,7 @@ Quick Flutter resources and samples
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 
 - `CheckBox with button`
+- `Tab with pages`
 - `ToolBar with button`
 - `ToolBar with text in the center`
 - `ToolBar with text only`
