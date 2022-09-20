@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
       style: TextButton.styleFrom(
         padding: const EdgeInsets.all(16.0),
         backgroundColor: Colors.grey,
-        primary: Colors.white,
+        foregroundColor: Colors.white,
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(32.0)),
         ),
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       style: TextButton.styleFrom(
         padding: const EdgeInsets.all(16.0),
         backgroundColor: const Color.fromARGB(255, 199, 169, 187),
-        primary: Colors.white,
+        foregroundColor: Colors.white,
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(32.0)),
         ),
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
       style: TextButton.styleFrom(
         padding: const EdgeInsets.all(16.0),
         backgroundColor: Colors.blue,
-        primary: Colors.white,
+        foregroundColor: Colors.white,
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(32.0)),
         ),
@@ -96,8 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
             showDialogBox(context);
           },
           style: ElevatedButton.styleFrom(
-            primary: Colors.blueGrey,
-            onPrimary: Colors.white,
+            backgroundColor: Colors.blueGrey,
+            foregroundColor: Colors.white,
             shadowColor: Colors.black87,
             padding: const EdgeInsets.all(16),
             shape: RoundedRectangleBorder(
