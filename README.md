@@ -1,5 +1,6 @@
 # Start here!
 - [`Get Started - Install`](https://docs.flutter.dev/get-started/install)
+---
 - [`General Samples`](#general_samples)
 - [`macOS Samples`](#macos_samples)
 
