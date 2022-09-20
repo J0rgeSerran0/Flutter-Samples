@@ -60,8 +60,8 @@ class _HomePageState extends State<HomePage> {
                 )
               : ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                      primary: Colors.black38,
-                      onPrimary: Colors.white,
+                      backgroundColor: Colors.black38,
+                      foregroundColor: Colors.white,
                       shadowColor: Colors.black87,
                       padding: const EdgeInsets.all(16),
                       shape: RoundedRectangleBorder(
