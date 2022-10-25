@@ -5,6 +5,7 @@
 
 - [`General Samples`](#general_samples)
 - [`macOS Samples`](#macos_samples)
+- [`Tests Samples`](#tests_samples)
 
 
 ## Android Studio
@@ -140,6 +141,10 @@ Quick Flutter resources and samples
 - `ToolBar with button`
 - `ToolBar with text in the center`
 - `ToolBar with text only`
+
+
+## <a name="tests_samples"></a>[**Tests Samples**](src/README_tests.md)
+![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 
 
 ---
