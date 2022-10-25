@@ -96,6 +96,15 @@ The extensions I use are:
 ## Guides and Learning Paths
 - [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
 
+## Flutter Commands
+Quick Flutter commands
+
+- **Udpgrade Flutter** `flutter upgrade` (to upgrade Flutter with the last stable version)
+- **Create a Flutter project** `flutter create <name>`
+- **Execute Flutter** `flutter packages get` and `flutter run`
+- **Execute Unit Tests** `flutter test <flutter_file.dart>`
+
+
 ---
 
 # Flutter-Samples
@@ -103,8 +112,7 @@ Quick Flutter resources and samples
 
 1. Create the flutter project `flutter create <name>`
 2. Overwrite the `lib` folder with the sample code
-3. Optional `flutter packages get` and `flutter run`
-4. Optional `flutter upgrade` (to upgrade Flutter with the last stable version)
+3. *Optional* `flutter packages get` and `flutter run`
 
 ## <a name="general_samples"></a>[**General Samples**](src/README.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
