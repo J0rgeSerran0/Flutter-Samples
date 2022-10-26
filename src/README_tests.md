@@ -9,10 +9,10 @@ Counter class with Unit Tests
 ![Flutter macOS Sample - Counter Test](images/test/class_test.png)
 
 
-## <a name="function_test"></a>[**Function Test**](tests/function_test/test/function_test.dart)
+## <a name="function_test"></a>[**Function Test**](tests/function_test/test/sum_test.dart)
 Sum class with Unit Tests with an initialization method
 
-![Flutter macOS Sample - Sun Test](images/test/function_test.png)
+![Flutter macOS Sample - Sum Test](images/test/function_test.png)
 
 
 ---
