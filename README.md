@@ -3,6 +3,8 @@
 
 ---
 
+Executed under [GitHub Gist](https://gist.github.com/)
+
 - [`General Samples`](#general_samples)
 - [`macOS Samples`](#macos_samples)
 - [`Tests Samples`](#tests_samples)
