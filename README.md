@@ -156,6 +156,9 @@ Quick Flutter resources and samples
 ## <a name="tests_samples"></a>[**Tests Samples**](src/README_tests.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 
+- `Counter Test`
+- `Sum Test`
+
 
 ---
 
