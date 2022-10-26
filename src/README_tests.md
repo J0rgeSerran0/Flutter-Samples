@@ -1,4 +1,6 @@
 # Tests Samples
+> An Unit Test should be `simple`, `deterministic`, `fast`, `focused in a part of code`, `understandable` and `cover all possibilities`
+
 - [`Counter Test`](#counter_test)
 - [`Function Test`](#function_test)
 
