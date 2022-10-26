@@ -13,16 +13,16 @@ Counter class with Unit Tests
 ![Flutter Test Sample - Counter Test](images/test/class_test.png)
 
 
-## <a name="exception_test"></a>[**Exception Test**](tests/exception_test/test/exception_test.dart)
-Unit Test about a class that throws an Exception
-
-![Flutter Test Sample - Exception  Test](images/test/exception_test.png)
-
-
 ## <a name="custom_exception_test"></a>[**Custom Exception Test**](tests/custom_exception_test/test/custom_exception_test.dart)
 Unit Test about a custom Exception, and a class that throws the custom Exception
 
 ![Flutter Test Sample - Custom Exception  Test](images/test/custom_exception_test.png)
+
+
+## <a name="exception_test"></a>[**Exception Test**](tests/exception_test/test/exception_test.dart)
+Unit Test about a class that throws an Exception
+
+![Flutter Test Sample - Exception  Test](images/test/exception_test.png)
 
 
 ## <a name="function_test"></a>[**Function Test**](tests/function_test/test/sum_test.dart)
