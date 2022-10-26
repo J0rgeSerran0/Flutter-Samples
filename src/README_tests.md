@@ -19,7 +19,7 @@ Unit Test about a custom Exception, and a class that throws the custom Exception
 ![Flutter Test Sample - Custom Exception  Test](images/test/custom_exception_test.png)
 
 
-## <a name="exception_test"></a>[**Exception Test**](tests/exception_test/test/create_exception_test.dart)
+## <a name="exception_test"></a>[**Exception Test**](tests/exception_test/test/createException_test.dart)
 Unit Test about a class that throws an Exception
 
 ![Flutter Test Sample - Exception  Test](images/test/exception_test.png)
