@@ -163,6 +163,8 @@ This sample shows a ListTile with Rounded Borders
 ## <a name="load_json_file"></a>[**load_json_file**](load_json_file/lib/main.dart)
 This sample load a JSON file in execution time (see the assets folder with the JSON file, and the pubspec.yaml file)
 
+> [Icons used in the sample](https://api.flutter.dev/flutter/material/Icons-class.html)
+
 ![Flutter Sample - Load JSON File](images/flutter_sample-Load_JSON_File.png)
 
 
