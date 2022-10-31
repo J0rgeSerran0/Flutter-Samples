@@ -16,6 +16,7 @@
 - [`Icon Text`](#icon_text)
 - [`Linear Loading Indicator`](#linear_loading_indicator)
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
+- [`Load JSON File`](#load_json_file)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
 - [`Switch Button`](#switch_button)
@@ -157,6 +158,12 @@ This sample shows a ListTile with Rounded Borders
 > <a href="https://dartpad.dev/65dfc89e8bb9e084871065cf147165a6" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - ListTile with Rounded Borders](images/flutter_sample-ListTile_with_Rounded_Borders.png)
+
+
+## <a name="load_json_file"></a>[**load_json_file**](load_json_file/lib/main.dart)
+This sample load a JSON file in execution time (see the assets folder with the JSON file, and the pubspec.yaml file)
+
+![Flutter Sample - Load JSON File](images/flutter_sample-Load_JSON_File.png)
 
 
 ## <a name="rating"></a>[**rating**](rating/lib/main.dart)

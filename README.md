@@ -136,6 +136,7 @@ Quick Flutter resources and samples
 - `Icon Text`
 - `Linear Loading Indicator`
 - `ListTile with Rounded Borders`
+- `Load JSON File`
 - `Rating`
 - `Rounded Bottom Navigation Bar`
 - `Switch Button`
