@@ -17,6 +17,7 @@
 - [`Linear Loading Indicator`](#linear_loading_indicator)
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
 - [`Load JSON File`](#load_json_file)
+- [`Login Page`](#login_page)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
 - [`Switch Button`](#switch_button)
@@ -166,6 +167,14 @@ This sample load a JSON file in execution time (see the assets folder with the J
 > [Icons used in the sample](https://api.flutter.dev/flutter/material/Icons-class.html)
 
 ![Flutter Sample - Load JSON File](images/flutter_sample-Load_JSON_File.png)
+
+
+## <a name="login_page"></a>[**login_page**](login_page/lib/main.dart)
+Login Page showing and hiding the password with a click
+
+> <a href="https://dartpad.dev/4f19dc5e2b39709934ec72a6ed1eb71b" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Login Page](images/flutter_sample-Login_Page.png)
 
 
 ## <a name="rating"></a>[**rating**](rating/lib/main.dart)
