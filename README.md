@@ -138,6 +138,7 @@ Quick Flutter resources and samples
 - `ListTile with Rounded Borders`
 - `Load JSON File`
 - `Login Page`
+- `Login Page With Release`
 - `Rating`
 - `Rounded Bottom Navigation Bar`
 - `Switch Button`

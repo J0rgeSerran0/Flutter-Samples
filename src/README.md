@@ -18,6 +18,7 @@
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
 - [`Load JSON File`](#load_json_file)
 - [`Login Page`](#login_page)
+- [`Login Page With Release`](#login_page_with_release)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
 - [`Switch Button`](#switch_button)
@@ -175,6 +176,14 @@ Login Page showing and hiding the password with a click
 > <a href="https://dartpad.dev/4f19dc5e2b39709934ec72a6ed1eb71b" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - Login Page](images/flutter_sample-Login_Page.png)
+
+
+## <a name="login_page_with_release"></a>[**login_page_with_release**](login_page_with_release/lib/main.dart)
+Login Page showing and hiding the password with a click and release action
+
+> <a href="https://dartpad.dev/224ac4ee722f11dded4a75e07138f94b" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Login Page With Release](images/flutter_sample-Login_Page_With_Release.png)
 
 
 ## <a name="rating"></a>[**rating**](rating/lib/main.dart)
