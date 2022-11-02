@@ -85,13 +85,24 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(
               height: 10,
             ),
-             MaterialButton(
+            // With a MaterialButton
+            MaterialButton(
                 minWidth: double.infinity,
                 color: Colors.red,
                 textColor: Colors.white,
                 onPressed: () {},
-                child: const Text('Using MaterialButton')
-             ),
+                child: const Text('Using MaterialButton')),
+            // Separator
+            const SizedBox(
+              height: 10,
+            ),
+            // With a ConstrainedBox
+            ConstrainedBox(
+                constraints: const BoxConstraints(minWidth: double.infinity),
+                child: ElevatedButton(
+                  onPressed: () {},
+                  child: const Text('Using ConstrainedBox'),
+                )),
           ],
         ),
       ),
