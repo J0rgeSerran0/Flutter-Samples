@@ -4,6 +4,7 @@
 - [`Animated Cross Fade`](#animated_cross_fade)
 - [`Animated Default Text Style`](#animated_default_text_style)
 - [`Bottom Navigation Bar`](#bottom_navigation_bar)
+- [`Button Full Width`](#button_full_width)
 - [`Button Multiple Toggle Switch`](#button_multiple_toggle_switch)
 - [`Button Toggle Switch`](#button_toggle_switch)
 - [`Circular Loading Indicator`](#circular_loading_indicator)
@@ -64,6 +65,14 @@ This sample shows a typical Bottom Navigation Bar
 > <a href="https://dartpad.dev/063161a922c5dc09eb9e81bff21c1cd6" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - Bottom Navigation Bar](images/flutter_sample-Bottom_Navigation_Bar.png)
+
+
+## <a name="button_full_width"></a>[**button_full_width**](button_full_width/lib/main.dart)
+This sample shows some buttons with a full width
+
+> <a href="https://dartpad.dev/7e7d8a3c84614757c6aafcfa0fa3d8cd" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Button Full Width](images/flutter_sample-Button_Full_Width.png)
 
 
 ## <a name="button_multiple_toggle_switch"></a>[**button_multiple_toggle_switch**](button_multiple_toggle_switch/lib/main.dart)

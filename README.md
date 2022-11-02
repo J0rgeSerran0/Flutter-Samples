@@ -124,6 +124,7 @@ Quick Flutter resources and samples
 - `Animated Cross Fade`
 - `Animated Default Text Style`
 - `Bottom Navigation Bar`
+- `Button Full Width`
 - `Button Multiple Toggle Switch`
 - `Button Toggle Switch`
 - `Circular Loading Indicator`
