@@ -85,6 +85,13 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(
               height: 10,
             ),
+             MaterialButton(
+                minWidth: double.infinity,
+                color: Colors.red,
+                textColor: Colors.white,
+                onPressed: () {},
+                child: const Text('Using MaterialButton')
+             ),
           ],
         ),
       ),
