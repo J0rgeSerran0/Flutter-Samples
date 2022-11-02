@@ -101,11 +101,14 @@ The extensions I use are:
 ## Flutter Commands
 Quick Flutter commands
 
-- **Udpgrade Flutter** `flutter upgrade` (to upgrade Flutter with the last stable version)
+- **Upgrade Flutter** `flutter upgrade` (to upgrade Flutter with the last stable version)
 - **Create a Flutter project** `flutter create <name>`
+- **Install a Flutter Package** `flutter pub add <package_name>`
 - **Execute Flutter** `flutter packages get` and `flutter run`
 - **Execute Unit Tests** `flutter test <flutter_file.dart>`
 
+## Flutter Packages
+- [Flutter Packages Site](https://pub.dev/packages/)
 
 ---
 
