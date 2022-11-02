@@ -1,6 +1,4 @@
-// import 'dart:convert';
 import 'package:flutter/material.dart';
-// import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +11,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      // theme: ThemeData(
-      //   useMaterial3: true,
-      //   primarySwatch: Colors.brown,
-      // ),
       home: HomePage(),
       color: Colors.amber,
     );
