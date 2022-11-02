@@ -134,6 +134,7 @@ Quick Flutter resources and samples
 - `Dialog Box with 3 buttons`
 - `Form Dialog Box`
 - `Horizotal Toolbar`
+- `Http Get and Post`
 - `Icon Text`
 - `Linear Loading Indicator`
 - `ListTile with Rounded Borders`

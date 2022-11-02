@@ -14,6 +14,7 @@
 - [`Dialog Box with 3 buttons`](#dialog_box_with_3_buttons)
 - [`Form Dialog Box`](#form_dialog_box)
 - [`Horizotal Toolbar`](#horizontal_toolbar)
+- [`Http Get and Post`](#http_get_and_post)
 - [`Icon Text`](#icon_text)
 - [`Linear Loading Indicator`](#linear_loading_indicator)
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
@@ -145,6 +146,12 @@ This sample shows a typical toolbar with separator, that is common in desktop en
 > <a href="https://dartpad.dev/102a5229ab86981fa88e506f471f0727" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - Horizontal Toolbar](images/flutter_sample-Horizontal_Toolbar.png)
+
+
+## <a name="http_get_and_post"></a>[**http_get_and_post**](http_get_and_post/lib/main.dart)
+This sample user GetX to connect and do a get, post, etc connection with an API
+
+![Flutter Sample - Http Get and Post](images/flutter_sample-Http_Get_and_Post.png)
 
 
 ## <a name="icon_text"></a>[**icon_text**](icon_text/lib/main.dart)
