@@ -221,7 +221,6 @@ This sample shows a Rounded Bottom Navigation Bar
 
 
 ## <a name="sqlite_sample"></a>[**sqlite_sample**](sqlite_sample/lib/main.dart)
-- [**sqlite_sample**](sqlite_sample/lib/main.dart)
 This sample shows a typical Sqlite sample with CRUD (create, read, update and delete) actions
 
 This sample uses Sqflite and Sqflite_common_ffi packages to connect and use Sqlite
@@ -231,6 +230,7 @@ This sample uses Sqflite and Sqflite_common_ffi packages to connect and use Sqli
 
 ## <a name="switch_button"></a>[**switch_button**](switch_button/lib/main.dart)
 - [**switch_button component**](switch_button/lib/components/switch_button.dart)
+
 This sample shows a typical Switch Button
 
 > <a href="https://dartpad.dev/ab58fc1bc7017a361521cc93f8f66ecf" target="_blank">Code in action using DartPad</a>
