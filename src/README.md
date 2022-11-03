@@ -223,7 +223,7 @@ This sample shows a Rounded Bottom Navigation Bar
 ## <a name="sqlite_sample"></a>[**sqlite_sample**](sqlite_sample/lib/main.dart)
 This sample shows a typical Sqlite sample with CRUD (create, read, update and delete) actions
 
-This sample uses Sqflite and Sqflite_common_ffi packages to connect and use Sqlite
+This sample uses [sqflite](https://pub.dev/packages/sqflite) and [sqflite_common_ffi](https://pub.dev/packages/sqflite_common_ffi) packages to connect and use Sqlite
 
 ![Flutter Sample - Sqlite Sample](images/flutter_sample-Sqlite_Sample.png)
 
