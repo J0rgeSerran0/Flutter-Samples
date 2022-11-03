@@ -23,6 +23,7 @@
 - [`Login Page With Release`](#login_page_with_release)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
+- [`Sqlite Sample`](#sqlite_sample)
 - [`Switch Button`](#switch_button)
 - [`Switch Cover Button`](#switch_cover_button)
 - [`Text Field Search Box`](#text_field_search_box)
@@ -149,7 +150,7 @@ This sample shows a typical toolbar with separator, that is common in desktop en
 
 
 ## <a name="http_get_and_post"></a>[**http_get_and_post**](http_get_and_post/lib/main.dart)
-This sample user GetX to connect and do a get, post, etc connection with an API
+This sample uses GetX to connect and do a get, post, etc connection with an API
 
 ![Flutter Sample - Http Get and Post](images/flutter_sample-Http_Get_and_Post.png)
 
@@ -217,6 +218,15 @@ This sample shows a Rounded Bottom Navigation Bar
 > <a href="https://dartpad.dev/5e94bb2700dc0b76aba0e99e8e2b3ff5" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - Rounded Bottom Navigation Bar](images/flutter_sample-Rounded_Bottom_Navigation_Bar.png)
+
+
+## <a name="sqlite_sample"></a>[**sqlite_sample**](sqlite_sample/lib/main.dart)
+- [**sqlite_sample**](sqlite_sample/lib/main.dart)
+This sample shows a typical Sqlite sample with CRUD (create, read, update and delete) actions
+
+This sample uses Sqflite and Sqflite_common_ffi packages to connect and use Sqlite
+
+![Flutter Sample - Sqlite Sample](images/flutter_sample-Sqlite_Sample.png)
 
 
 ## <a name="switch_button"></a>[**switch_button**](switch_button/lib/main.dart)

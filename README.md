@@ -146,6 +146,7 @@ Quick Flutter resources and samples
 - `Login Page With Release`
 - `Rating`
 - `Rounded Bottom Navigation Bar`
+- `Sqlite Sample`
 - `Switch Button`
 - `Switch Cover Button`
 - `Text Field Search Box`
