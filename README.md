@@ -145,6 +145,7 @@ Quick Flutter resources and samples
 - `Load JSON File`
 - `Login Page`
 - `Login Page With Release`
+- `Play Sound File`
 - `Rating`
 - `Rounded Bottom Navigation Bar`
 - `Sqlite Sample`

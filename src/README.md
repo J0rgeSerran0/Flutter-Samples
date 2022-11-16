@@ -22,6 +22,7 @@
 - [`Load JSON File`](#load_json_file)
 - [`Login Page`](#login_page)
 - [`Login Page With Release`](#login_page_with_release)
+- [`Play Sound File`](#play_sound_file)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
 - [`Sqlite Sample`](#sqlite_sample)
@@ -209,6 +210,14 @@ Login Page showing and hiding the password with a click and release action
 > <a href="https://dartpad.dev/224ac4ee722f11dded4a75e07138f94b" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - Login Page With Release](images/flutter_sample-Login_Page_With_Release.png)
+
+
+## <a name="play_sound_file"></a>[**play_sound_file**](play_sound_file/lib/main.dart)
+This sample shows as to Play a mp3 sound file in Flutter
+
+This sample uses the [audioplayers](https://pub.dev/packages/audioplayers) package to Play the sound
+
+![Flutter Sample - Play Sound File](images/flutter_sample-Play_Sound_File.png)
 
 
 ## <a name="rating"></a>[**rating**](rating/lib/main.dart)
