@@ -20,6 +20,7 @@
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
 - [`Load Base64 Image`](#load_base64_image)
 - [`Load JSON File`](#load_json_file)
+- [`Load SVG Image`](#load_svg_image)
 - [`Login Page`](#login_page)
 - [`Login Page With Release`](#login_page_with_release)
 - [`Play Sound File`](#play_sound_file)
@@ -194,6 +195,14 @@ This sample load a JSON file in execution time (see the assets folder with the J
 > [Icons used in the sample](https://api.flutter.dev/flutter/material/Icons-class.html)
 
 ![Flutter Sample - Load JSON File](images/flutter_sample-Load_JSON_File.png)
+
+
+## <a name="load_svg_image"></a>[**load_svg_image**](load_svg_image/lib/main.dart)
+This sample shows as to Play a mp3 sound file in Flutter
+
+This sample uses the [flutter_svg](https://pub.dev/packages/flutter_svg) package to Load SVG Images
+
+![Flutter Sample - Load SVG Images](images/flutter_sample-Load_SVG_Image.png)
 
 
 ## <a name="login_page"></a>[**login_page**](login_page/lib/main.dart)

@@ -144,6 +144,7 @@ Quick Flutter resources and samples
 - `ListTile with Rounded Borders`
 - `Load Base64 Image`
 - `Load JSON File`
+- `Load SVG Image`
 - `Login Page`
 - `Login Page With Release`
 - `Play Sound File`
