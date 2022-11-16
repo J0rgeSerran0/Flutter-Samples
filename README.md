@@ -141,6 +141,7 @@ Quick Flutter resources and samples
 - `Icon Text`
 - `Linear Loading Indicator`
 - `ListTile with Rounded Borders`
+- `Load Base64 Image`
 - `Load JSON File`
 - `Login Page`
 - `Login Page With Release`

@@ -18,6 +18,7 @@
 - [`Icon Text`](#icon_text)
 - [`Linear Loading Indicator`](#linear_loading_indicator)
 - [`ListTile with Rounded Borders`](#listtile_with_rounded_borders)
+- [`Load Base64 Image`](#load_base64_image)
 - [`Load JSON File`](#load_json_file)
 - [`Login Page`](#login_page)
 - [`Login Page With Release`](#login_page_with_release)
@@ -177,6 +178,13 @@ This sample shows a ListTile with Rounded Borders
 > <a href="https://dartpad.dev/65dfc89e8bb9e084871065cf147165a6" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - ListTile with Rounded Borders](images/flutter_sample-ListTile_with_Rounded_Borders.png)
+
+## <a name="load_base64_image"></a>[**load_base64_image**](load_base64_image/lib/main.dart)
+This sample load some base64 images in execution time
+
+> <a href="https://dartpad.dev/c56ee4745fcaab99c537083ed66a2a66" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Load base64 Image](images/flutter_sample-Load_base64_Image.png)
 
 
 ## <a name="load_json_file"></a>[**load_json_file**](load_json_file/lib/main.dart)
