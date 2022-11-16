@@ -104,6 +104,7 @@ Quick Flutter commands
 - **Upgrade Flutter** `flutter upgrade` (to upgrade Flutter with the last stable version)
 - **Create a Flutter project** `flutter create <name>`
 - **Install a Flutter Package** `flutter pub add <package_name>`
+- **Update the Flutter project with the packages found in pubspec.yaml** `flutter pub get`
 - **Execute Flutter** `flutter packages get` and `flutter run`
 - **Execute Unit Tests** `flutter test <flutter_file.dart>`
 
