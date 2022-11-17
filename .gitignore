@@ -394,3 +394,11 @@ src/sqlite_sample/pubspec.lock
 src/sqlite_sample/.dart_tool/package_config_subset
 src/sqlite_sample/.dart_tool/package_config.json
 src/sqlite_sample/.dart_tool/version
+src/http_get_and_post/pubspec.lock
+src/http_get_and_post/.dart_tool/package_config_subset
+src/http_get_and_post/.dart_tool/package_config.json
+src/http_get_and_post/.dart_tool/version
+src/load_svg_image/pubspec.lock
+src/load_svg_image/.dart_tool/package_config_subset
+src/load_svg_image/.dart_tool/package_config.json
+src/load_svg_image/.dart_tool/version

@@ -23,6 +23,7 @@
 - [`Load SVG Image`](#load_svg_image)
 - [`Login Page`](#login_page)
 - [`Login Page With Release`](#login_page_with_release)
+- [`Markdown Text`](#markdown_text)
 - [`Play Sound File`](#play_sound_file)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
@@ -219,6 +220,14 @@ Login Page showing and hiding the password with a click and release action
 > <a href="https://dartpad.dev/224ac4ee722f11dded4a75e07138f94b" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - Login Page With Release](images/flutter_sample-Login_Page_With_Release.png)
+
+
+## <a name="markdown_text"></a>[**markdown_text**](markdown_text/lib/main.dart)
+This sample shows as to show markdown texts in your Flutter app
+
+This sample uses the [flutter_markdown](https://pub.dev/packages/flutter_markdown) package to Load Markdown texts
+
+![Flutter Sample - Markdown Text](images/flutter_sample-Markdown_Text.png)
 
 
 ## <a name="play_sound_file"></a>[**play_sound_file**](play_sound_file/lib/main.dart)

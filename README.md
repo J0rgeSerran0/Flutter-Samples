@@ -147,6 +147,7 @@ Quick Flutter resources and samples
 - `Load SVG Image`
 - `Login Page`
 - `Login Page With Release`
+- `Markdown Text`
 - `Play Sound File`
 - `Rating`
 - `Rounded Bottom Navigation Bar`
