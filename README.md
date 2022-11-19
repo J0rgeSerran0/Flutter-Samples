@@ -160,6 +160,16 @@ This layer would store the *Services*, *Mappings*, *Components*, *Caching*, *Ins
 #### *Data Layer*
 This layer would store the *Repositories*, *DTOs*, *Data Utilities* and *Data Providers*, and should be focused in the *Data Access* and how the data is returned to the caller
 
+---
+
+The ideal scenario when we develop a new project, is organize our projects by a set of features (*functional requirement*, *user story*, or *oriented to domain*), and inside of each feature, their layers
+
+When we create, edit/modify, or delete a feature, we can focus in the feature as an independent feature
+
+And when we create our test coverage of each feature, we can focus in it to cover the unit tests with confidence
+
+Later, we can explore the integration and acceptance tests too in the same way
+
 ![Flutter App Architecture](images/Flutter_App_Architeture_03.png)
 
 ### **References**
