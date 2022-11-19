@@ -151,14 +151,20 @@ But we could think in a less complex Architecture with three layers only
 
 ![Flutter App Architecture](images/Flutter_App_Architeture_02.png)
 
-#### *UI Layer* and **Presentation Layer**
-This layer would store the *Widgets*, *States* and *Controllers* and should be focused in the *Presentation Logic*
+#### *UI Layer* and/or **Presentation Layer**
+This layer would store the *Widgets*, *States*, *Controllers* and *Commands*, and should be focused in the *Presentation Logic*
 
-#### **Application Layer** and **Domain Layer**
-This layer would store the *Services*, *Components*, *Caching*, *Instrumentation*, *Processors*, *Configuration* and *Models* or *Entities* and should be focused in the *Business Rules*
+#### **Application Layer** or **Business Layer**, and **Domain Layer**
+This layer would store the *Services*, *Mappings*, *Components*, *Caching*, *Instrumentation*, *Processors*, *Configuration* and *Models* or *Entities*, and should be focused in the *Business Rules (enterprise business rules and application business rules)*
 
 #### *Data Layer*
-This layer would store the *Repositories*, *DTOs*, *Mappings*, *Data Utilities* and *Data Sources*
+This layer would store the *Repositories*, *DTOs*, *Data Utilities* and *Data Providers*, and should be focused in the *Data Access* and how the data is returned to the caller
+
+![Flutter App Architecture](images/Flutter_App_Architeture_03.png)
+
+### **References**
+- [Flutter App Architecture Riverpod Introduction](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/)
+- [Flutter Project Structure](https://codewithandrea.com/articles/flutter-project-structure/)
 
 ---
 
