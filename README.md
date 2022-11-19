@@ -111,6 +111,42 @@ Quick Flutter commands
 ## Flutter Packages
 - [Flutter Packages Site](https://pub.dev/packages/)
 
+## Flutter App Architecture and Project Structure
+
+### **Main steps when we start a new Flutter App**
+> The App Architecture will force us to define the layers and boundaries of the App
+> The layers and boundaries will help us to define the folders and Project Structure
+
+1) Decide the App Architecture to use
+2) Choose the Project Structure
+
+### ** Notes about the App Architecture**
+In general is very important, and critical for complex apps or projects, decide the App Architecture before start a project, because it will help us to handle the bounders, complexity and productivity of it in the correct way
+
+Popular or familiar App Architectures used long ago (and today), are *MVC, MVP, MVVM* and *Clean Architecture*. To be honest, *MVC, MVP and MVVM* are *design patterns*, and *Clean Architecture* defines a set of rules and principles for complex solutions or projects, but **are not good Architectures to use them with Flutter**
+
+In the other hand we have some alternatives:
+
+1) [*Bloc Architecture*](https://bloclibrary.dev/#/architecture) has an important popularity. [*Bloc Library*](https://bloclibrary.dev/#/) has helped to adopt this Architecture for Flutter Apps. This Architecture gives us a **strict set of rules** about how to structure our Flutter Apps. *Bloc Library* rely on [Provider Package](https://pub.dev/packages/provider), which is the [recommended package for state management](https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple)
+
+2) *Stacke Architecture* based in the [*Stacked package*](https://pub.dev/packages/stacked) and inspired by *MVVM*. *Stacked package* rely on [Provider Package](https://pub.dev/packages/provider), which is the [recommended package for state management](https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple)
+
+3) [*Riverpod Package*](https://pub.dev/packages/riverpod), created by the [Provider Package's author](https://pub.dev/packages/provider) could help us to create our own Architecture. This package is a good package for *dependency injection* and *state management*
+
+4) Custom Architecture, depending of our experiences. Good to be more flexible and cover all possibilities, because sometimes, a type of Architecture could be a good idea for a project, but a bad one for other project, so open your mind about that is possible that not all projects should be use the same type of Architecture always
+
+### **Architecture Layers**
+Taking our App as an all, we could slice our App in four layers
+- Presentation Layer
+- Application Layer
+- Domain Layer
+- Data Layer
+
+![Flutter App Architecture](images/Flutter_App_Architeture_01.png)
+
+
+Thinking in the general App Architecture, we could think our App as 
+
 ---
 
 # Flutter-Samples
