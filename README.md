@@ -142,14 +142,14 @@ Taking our App as an all, we could slice our App in four layers
 - Domain Layer
 - Data Layer
 
-![Flutter App Architecture](images/Flutter_App_Architeture_01.png)
+![Flutter App Architecture](images/Flutter_App_Architecture_01.png)
 
 But we could think in a less complex Architecture with three layers only
 - Presentation Layer
 - Application Layer
 - Data Layer
 
-![Flutter App Architecture](images/Flutter_App_Architeture_02.png)
+![Flutter App Architecture](images/Flutter_App_Architecture_02.png)
 
 #### *UI Layer* and/or **Presentation Layer**
 This layer would store the *Widgets*, *States*, *Controllers* and *Commands*, and should be focused in the *Presentation Logic*
@@ -170,9 +170,9 @@ And when we create our test coverage of each feature, we can focus in it to cove
 
 Later, we can explore the integration and acceptance tests too in the same way
 
-![Flutter App Architecture](images/Flutter_App_Architeture_03.png)
+![Flutter App Architecture](images/Flutter_App_Architecture_03.png)
 
-![Flutter App Architecture](images/Flutter_App_Architeture_04.png)
+![Flutter App Architecture](images/Flutter_App_Architecture_04.png)
 
 ### **References**
 - [Flutter App Architecture Riverpod Introduction](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/)
