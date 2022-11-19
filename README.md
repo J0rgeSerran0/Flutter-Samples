@@ -120,7 +120,7 @@ Quick Flutter commands
 1) Decide the App Architecture to use
 2) Choose the Project Structure
 
-### ** Notes about the App Architecture**
+### **Notes about the App Architecture**
 In general is very important, and critical for complex apps or projects, decide the App Architecture before start a project, because it will help us to handle the bounders, complexity and productivity of it in the correct way
 
 Popular or familiar App Architectures used long ago (and today), are *MVC, MVP, MVVM* and *Clean Architecture*. To be honest, *MVC, MVP and MVVM* are *design patterns*, and *Clean Architecture* defines a set of rules and principles for complex solutions or projects, but **are not good Architectures to use them with Flutter**
@@ -144,8 +144,21 @@ Taking our App as an all, we could slice our App in four layers
 
 ![Flutter App Architecture](images/Flutter_App_Architeture_01.png)
 
+But we could think in a less complex Architecture with three layers only
+- Presentation Layer
+- Application Layer
+- Data Layer
 
-Thinking in the general App Architecture, we could think our App as 
+![Flutter App Architecture](images/Flutter_App_Architeture_02.png)
+
+#### **Presentation Layer**
+This layer would store the *Widgets*, *States* and *Controllers* and should be focused in the *Presentation Logic*
+
+#### **Application Layer** and **Domain Layer**
+This layer would store the *Services*, *Components*, *Caching*, *Instrumentation*, *Processors*, *Configuration* and *Models* or *Entities* and should be focused in the *Business Rules*
+
+#### *Data Layer*
+This layer would store the *Repositories*, *DTOs*, *Mappings*, *Data Utilities* and *Data Sources*
 
 ---
 
