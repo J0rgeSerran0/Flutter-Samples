@@ -172,6 +172,8 @@ Later, we can explore the integration and acceptance tests too in the same way
 
 ![Flutter App Architecture](images/Flutter_App_Architeture_03.png)
 
+![Flutter App Architecture](images/Flutter_App_Architeture_04.png)
+
 ### **References**
 - [Flutter App Architecture Riverpod Introduction](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/)
 - [Flutter Project Structure](https://codewithandrea.com/articles/flutter-project-structure/)
