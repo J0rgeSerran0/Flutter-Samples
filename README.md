@@ -151,7 +151,7 @@ But we could think in a less complex Architecture with three layers only
 
 ![Flutter App Architecture](images/Flutter_App_Architeture_02.png)
 
-#### **Presentation Layer**
+#### *UI Layer* and **Presentation Layer**
 This layer would store the *Widgets*, *States* and *Controllers* and should be focused in the *Presentation Logic*
 
 #### **Application Layer** and **Domain Layer**
