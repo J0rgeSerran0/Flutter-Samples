@@ -107,7 +107,7 @@ Quick Flutter commands
 - **Update the Flutter project with the packages found in pubspec.yaml** `flutter pub get`
 - **Analyze the Flutter App** `flutter analyze`
 - **Execute Flutter** `flutter packages get` and `flutter run`
-- **Execute Unit Tests** `flutter test <flutter_file.dart>`
+- **Execute Unit Tests** `flutter test` or `flutter test <flutter_file.dart>`
 
 ## Flutter Packages
 - [Flutter Packages Site](https://pub.dev/packages/)
