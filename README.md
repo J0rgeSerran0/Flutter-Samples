@@ -99,13 +99,13 @@ The extensions I use are:
 - [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
 
 ## Flutter Commands
-Quick Flutter commands
-
+General commands
 - **Get Flutter Help** `flutter --help --verbose`
 - **Check Flutter Health** `flutter doctor`
 - **Check the version of Flutter installed** `flutter --version`
 - **Upgrade Flutter** `flutter upgrade` (to upgrade Flutter with the last stable version)
-
+---
+Flutter App commands
 - **Create a Flutter App** `flutter create <app_name>`
 - **Analyze a Flutter App** `flutter analyze`
 - **Run Unit Tests** `flutter test` or `flutter directory_test` or `flutter test <file_test.dart>`
@@ -117,7 +117,6 @@ Quick Flutter commands
 - **List available emulators** `flutter emulators`
 - **Install Flutter App on a Device** `flutter install -d <device_id>`
 - **Build a Flutter App** `flutter build <type_of_app>` (for example: `flutter build ios` or `flutter build apk`)
-
 
 
 ## Flutter Packages
