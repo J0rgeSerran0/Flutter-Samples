@@ -101,13 +101,24 @@ The extensions I use are:
 ## Flutter Commands
 Quick Flutter commands
 
+- **Get Flutter Help** `flutter --help --verbose`
+- **Check Flutter Health** `flutter doctor`
+- **Check the version of Flutter installed** `flutter --version`
 - **Upgrade Flutter** `flutter upgrade` (to upgrade Flutter with the last stable version)
-- **Create a Flutter project** `flutter create <name>`
+
+- **Create a Flutter App** `flutter create <app_name>`
+- **Analyze a Flutter App** `flutter analyze`
+- **Run Unit Tests** `flutter test` or `flutter directory_test` or `flutter test <file_test.dart>`
 - **Install a Flutter Package** `flutter pub add <package_name>`
-- **Update the Flutter project with the packages found in pubspec.yaml** `flutter pub get`
-- **Analyze the Flutter App** `flutter analyze`
-- **Execute Flutter** `flutter packages get` and `flutter run`
-- **Execute Unit Tests** `flutter test` or `flutter test <flutter_file.dart>`
+- **Get the Flutter packages for the project** `flutter packages get`
+- **Get the Flutter project with the packages found in pubspec.yaml** `flutter pub get`
+- **Update the Flutter packages** `flutter pub update`
+- **Run App** `flutter run`
+- **List available emulators** `flutter emulators`
+- **Install Flutter App on a Device** `flutter install -d <device_id>`
+- **Build a Flutter App** `flutter build <type_of_app>` (for example: `flutter build ios` or `flutter build apk`)
+
+
 
 ## Flutter Packages
 - [Flutter Packages Site](https://pub.dev/packages/)
