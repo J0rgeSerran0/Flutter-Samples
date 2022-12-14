@@ -7,6 +7,7 @@
 - [`Button Full Width`](#button_full_width)
 - [`Button Multiple Toggle Switch`](#button_multiple_toggle_switch)
 - [`Button Toggle Switch`](#button_toggle_switch)
+- [`Calculator`](#calculator)
 - [`Circular Loading Indicator`](#circular_loading_indicator)
 - [`Combo Box`](#combo_box)
 - [`Date Picker`](#date_picker)
@@ -95,6 +96,16 @@ This sample shows a toggle switch with a single selection
 > <a href="https://dartpad.dev/0460832521b5009486468569905fe3a4" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - Button Toggle Switch](images/flutter_sample-Button_Toggle_Switch.png)
+
+
+## <a name="calculator"></a>[**calculator**](calculator/lib/main.dart)
+This sample shows a typical and simple Calculator
+
+[**Calculator class used in the sample**](calculator/lib/calculator.dart)
+
+> <a href="https://dartpad.dev/1f930efd3c77185c0f851e6d15a0b3f6" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Calculator](images/flutter_sample-Calculator.png)
 
 
 ## <a name="circular_loading_indicator"></a>[**circular_loading_indicator**](circular_loading_indicator/lib/main.dart)

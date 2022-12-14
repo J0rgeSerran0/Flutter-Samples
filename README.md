@@ -209,6 +209,7 @@ Quick Flutter resources and samples
 - `Button Full Width`
 - `Button Multiple Toggle Switch`
 - `Button Toggle Switch`
+- `Calculator`
 - `Circular Loading Indicator`
 - `Combo Box`
 - `Date Picker`
