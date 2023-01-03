@@ -2,6 +2,7 @@
 
 - [`App Widget`](#app_widget)
 - [`Material Components widgets for Android and Apple`](#material_components_widgets)
+- [`Opacity widget`](#opacity_widget)
 - [`Pages, Screens and Routes`](#pages_screens_routes)
 - [`Started Point of the app`](#started_point)
 - [`Stateful widget`](#stateful_widget)
@@ -45,6 +46,108 @@ Some of the widgets included in the *Material Components library* are *buttons*,
 But with Flutter, you can implement any design language
 
 For example, on iOS you can use the [Cupertino widgets](https://docs.flutter.dev/development/ui/widgets/cupertino) to produce an interface that looks like [Apple Design Resources](https://developer.apple.com/design/resources/)
+
+
+## <a name="opacity_widget"></a>**Opacity widget**
+In Flutter, you need to wrap a widget in an [Opacity widget](https://api.flutter.dev/flutter/widgets/Opacity-class.html)
+
+The values for Opacity is from 0.0 to 1.0
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const SampleApp());
+}
+
+class SampleApp extends StatelessWidget {
+  /// This widget is the root of your application.
+  const SampleApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: SampleAppPage(),
+    );
+  }
+}
+
+class SampleAppPage extends StatefulWidget {
+  const SampleAppPage({super.key});
+
+  @override
+  State<SampleAppPage> createState() => SampleAppPageState();
+}
+
+class SampleAppPageState extends State<SampleAppPage> {
+  
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Opacity')),
+      backgroundColor: Colors.red,
+      body: Column(
+          children: [
+            Opacity(
+                opacity: 1,
+                child: Container(
+                  width: double.infinity,
+                  height: 50,
+                  color: Colors.blue,
+                  alignment: Alignment.center,
+                  child: const Text('Opacity = 1'),
+                )),
+            Opacity(
+                opacity: 0.8,
+                child: Container(
+                  width: double.infinity,
+                  height: 50,
+                  color: Colors.blue,
+                  alignment: Alignment.center,
+                  child: const Text('Opacity = 0.8'),
+                )),
+            Opacity(
+                opacity: 0.6,
+                child: Container(
+                  width: double.infinity,
+                  height: 50,
+                  color: Colors.blue,
+                  alignment: Alignment.center,
+                  child: const Text('Opacity = 0.6'),
+                )),
+            Opacity(
+                opacity: 0.3,
+                child: Container(
+                  width: double.infinity,
+                  height: 50,
+                  color: Colors.blue,
+                  alignment: Alignment.center,
+                  child: const Text('Opacity = 0.3'),
+                )),
+            Opacity(
+                opacity: 0.1,
+                child: Container(
+                  width: double.infinity,
+                  height: 50,
+                  color: Colors.blue,
+                  alignment: Alignment.center,
+                  child: const Text('Opacity = 0.1'),
+                )),
+            // This one takes place but it's invisible
+            Opacity(
+                opacity: 0,
+                child: Container(
+                  width: double.infinity,
+                  height: 50,
+                  color: Colors.blue,
+                  alignment: Alignment.center,
+                  child: const Text('Opacity = 0'),
+                )),          
+          ],
+      ));
+  }
+}
+```
 
 
 ## <a name="pages_screens_routes"></a>**Pages, Screens and Routes**
