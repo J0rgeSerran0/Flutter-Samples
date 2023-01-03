@@ -189,6 +189,12 @@ Later, we can explore the integration and acceptance tests too in the same way
 - [Flutter App Architecture Riverpod Introduction](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/)
 - [Flutter Project Structure](https://codewithandrea.com/articles/flutter-project-structure/)
 
+
+### **Flutter Language Specification Draft**
+This is my own document about Flutter to help to the developer, to create their own Flutter samples. Is not a bible, just a helper document
+
+[You can find it here](Flutter_Language_Specification_Draft.md)
+
 ---
 
 # Flutter-Samples
