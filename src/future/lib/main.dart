@@ -4,9 +4,10 @@ void main() {
   runApp(MyApp());
 }
 
-// we simule a delay of 5 seconds
+// we simule a delay of 3 seconds
 Future<String> getNameFromDatabase() {
-  return Future<String>.delayed(const Duration(seconds: 3), () async => 'Name Sample');
+  return Future<String>.delayed(
+      const Duration(seconds: 3), () async => 'Name Sample');
 }
 
 class MyApp extends StatelessWidget {
@@ -40,25 +41,28 @@ class FutureSampleState extends State<FutureSample> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ElevatedButton(
-            onPressed: delivery != null ? null : () => setState(() { delivery = getNameFromDatabase(); }),
-            child: const Text('Get Name (using Future)')
-          ),
+              onPressed: delivery != null
+                  ? null
+                  : () => setState(() {
+                        delivery = getNameFromDatabase();
+                      }),
+              child: const Text('Get Name (using Future)')),
           const SizedBox(
-              height: 10,
-            ),
+            height: 10,
+          ),
           delivery == null
-            ? const Text('Future has not been executed yet')
-            : FutureBuilder(
-              future: delivery,
-              builder: (context, snapshot) {
-                if(snapshot.hasData) {
-                  return Text('Future executed: ${snapshot.data}');
-                } else if(snapshot.hasError) {
-                  return Text('Future error: ${snapshot.error.toString()}');
-                } else {
-                  return const CircularProgressIndicator();
-                }
-              })
+              ? const Text('Future has not been executed yet')
+              : FutureBuilder(
+                  future: delivery,
+                  builder: (context, snapshot) {
+                    if (snapshot.hasData) {
+                      return Text('Future executed: ${snapshot.data}');
+                    } else if (snapshot.hasError) {
+                      return Text('Future error: ${snapshot.error.toString()}');
+                    } else {
+                      return const CircularProgressIndicator();
+                    }
+                  })
         ]);
   }
 }
