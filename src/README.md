@@ -28,6 +28,7 @@
 - [`Login Page With Release`](#login_page_with_release)
 - [`Markdown Text`](#markdown_text)
 - [`Opacity`](#opacity)
+- [`Opacity with Linear Gradient`](#opacity_with_linear_gradient)
 - [`Play Sound File`](#play_sound_file)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
