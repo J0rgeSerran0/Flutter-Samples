@@ -1,9 +1,11 @@
 # **Flutter Language Specification Draft**
 
 - [`App Widget`](#app_widget)
+- [`Material Components widgets for Android and Apple`](#material_components_widgets)
 - [`Pages, Screens and Routes`](#pages_screens_routes)
 - [`Started Point of the app`](#started_point)
 - [`Stateful widget`](#stateful_widget)
+- [`Stateless widget`](#stateless_widget)
 - [`UI Immutability`](#ui_immutability)
 - [`Widgets`](#widgets)
 
@@ -30,6 +32,19 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+
+## <a name="material_components_widgets"></a>**Material Components Widgets for Android and Apple**
+Flutter includes the *Material Components library*, a widget collection that implements the [Material Design Guidelines](https://m2.material.io/design/guidelines-overview/)
+
+Some of the widgets included in the *Material Components library* are *buttons*, *inputs*, *dialogs*, *alerts*, etc
+
+* The `list` of [Material Components widgets can be found here](https://docs.flutter.dev/development/ui/widgets/material)
+* The `widget catalog` [can be found here](https://docs.flutter.dev/development/ui/widgets)
+
+But with Flutter, you can implement any design language
+
+For example, on iOS you can use the [Cupertino widgets](https://docs.flutter.dev/development/ui/widgets/cupertino) to produce an interface that looks like [Apple Design Resources](https://developer.apple.com/design/resources/)
 
 
 ## <a name="pages_screens_routes"></a>**Pages, Screens and Routes**
@@ -172,6 +187,80 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 
 
+## <a name="stateless_widget"></a>**Stateless widget**
+A `Stateless widget` is a widget with no state information
+
+A `Stateless widget` is useful when the part of the user interface does not depending on anything other than the configuration information in the object
+
+If you want to dynamically change the UI based on data received after a user interaction or other, you have to work with the `StatefulWidget` to tell the Flutter Framework, that the *widget's State* has been updated and update the widget
+
+> Gold Rule: If a widget changes (because of user interactions, for example) it’s stateful. However, if a widget reacts to change, the containing parent widget can still be stateless if it doesn’t itself react to change
+
+A sample of a `Stateless` widget is:
+
+```dart
+const Text(
+  'Flutter Text!',
+  style: TextStyle(fontWeight: FontWeight.bold),
+);
+```
+
+But the combination of a `Statefull widget` and a `Stateless widget`, could be the next one, with a `Stateless` app, and the `Statefull` page with a text, that change dynamically:
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const SampleApp());
+}
+
+class SampleApp extends StatelessWidget {
+  /// This widget is the root of your application.
+  const SampleApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      title: 'Sample App',
+      home: SampleAppPage(),
+    );
+  }
+}
+
+class SampleAppPage extends StatefulWidget {
+  const SampleAppPage({super.key});
+
+  @override
+  State<SampleAppPage> createState() => _SampleAppPageState();
+}
+
+class _SampleAppPageState extends State<SampleAppPage> {
+  /// Default placeholder text
+  String textToShow = 'I Like Flutter';
+
+  void _updateText() {
+    setState(() {
+      // Update the text
+      textToShow = 'Flutter is Awesome!';
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Sample App')),
+      body: Center(child: Text(textToShow)),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _updateText,
+        tooltip: 'Update Text',
+        child: const Icon(Icons.update),
+      ),
+    );
+  }
+}
+```
+
+
 ## <a name="ui_immutability"></a>**UI Immutability**
 In Flutter, the `UI` is also known as `widget tree`, and is immutable
 
@@ -183,7 +272,9 @@ See [`Stateful widget`](#stateful_widget) for more details
 
 
 ## <a name="widgets"></a>**Widgets**
-In Flutter, everything is a `widget`
+In Flutter, everything is a `widget`, and the *widgets* are immutable
+
+When you change a property, you can not directly update a widget, instead you have to work with the *widget's state* (see [`Stateful widget`](#stateful_widget) too)
 
 The app itself, is a `widget` too
 
