@@ -29,6 +29,7 @@
 - [`Play Sound File`](#play_sound_file)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
+- [`Routes`](#routes)
 - [`Sqlite Sample`](#sqlite_sample)
 - [`Switch Button`](#switch_button)
 - [`Switch Cover Button`](#switch_cover_button)
@@ -273,6 +274,14 @@ This sample shows a Rounded Bottom Navigation Bar
 > <a href="https://dartpad.dev/5e94bb2700dc0b76aba0e99e8e2b3ff5" target="_blank">Code in action using DartPad</a>
 
 ![Flutter Sample - Rounded Bottom Navigation Bar](images/flutter_sample-Rounded_Bottom_Navigation_Bar.png)
+
+
+## <a name="routes"></a>[**routes**](routes/lib/main.dart)
+Use of two `Routes` (Pages or Screens in Flutter)
+
+> <a href="https://dartpad.dev/3e1e407ed2048b52fcc0c4452d2dbc4f" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Routes sample](images/flutter_sample-Routes.png)
 
 
 ## <a name="sqlite_sample"></a>[**sqlite_sample**](sqlite_sample/lib/main.dart)

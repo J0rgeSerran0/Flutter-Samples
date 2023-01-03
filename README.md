@@ -237,6 +237,7 @@ Quick Flutter resources and samples
 - `Play Sound File`
 - `Rating`
 - `Rounded Bottom Navigation Bar`
+- `Routes`
 - `Sqlite Sample`
 - `Switch Button`
 - `Switch Cover Button`
