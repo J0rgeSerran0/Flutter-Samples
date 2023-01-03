@@ -1,4 +1,5 @@
 # General Samples
+- [`Add or Remove an element`](#add_or_remove_an_element)
 - [`Alert Dialog Box`](#alert_dialog_box)
 - [`Animated Builder`](#animated_builder)
 - [`Animated Cross Fade`](#animated_cross_fade)
@@ -34,6 +35,14 @@
 - [`Switch Button`](#switch_button)
 - [`Switch Cover Button`](#switch_cover_button)
 - [`Text Field Search Box`](#text_field_search_box)
+
+
+## <a name="add_or_remove_an_element"></a>[**add_or_remove_an_element**](add_or_remove_an_element/lib/main.dart)
+This sample shows how to add or remove an element based in a toggle
+
+> <a href="https://dartpad.dev/ccf67c5da89d785b0104ecb5d0e1a21f" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Add or Remove an element](images/flutter_sample-Add_or_Remove_an_element.png)
 
 
 ## <a name="alert_dialog_box"></a>[**alert_dialog_box**](alert_dialog_box/lib/main.dart)

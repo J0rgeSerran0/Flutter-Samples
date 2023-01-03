@@ -207,6 +207,7 @@ Quick Flutter resources and samples
 ## <a name="general_samples"></a>[**General Samples**](src/README.md)
 ![#A30204](https://via.placeholder.com/10x10/F28082/000000.png?text=+) All samples tested with [**Flutter 3**](Flutter_3.md)
 
+- `Add or Remove and element`
 - `Alert Dialog Box`
 - `Animated Builder`
 - `Animated Cross Fade`
