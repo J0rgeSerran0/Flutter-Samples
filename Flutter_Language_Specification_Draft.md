@@ -1,6 +1,7 @@
 # **Flutter Language Specification Draft**
 
 - [`App Widget`](#app_widget)
+- [`Pages, Screens and Routes`](#pages_screens_routes)
 - [`Started Point of the app`](#started_point)
 - [`Stateful widget`](#stateful_widget)
 - [`UI Immutability`](#ui_immutability)
@@ -31,6 +32,78 @@ class MyApp extends StatelessWidget {
 ```
 
 
+## <a name="pages_screens_routes"></a>**Pages, Screens and Routes**
+In Flutter, a *Page* or *Screen* is called `Route`
+* In *Android*, these pages/screens are referred to as *Activity*
+* In *iOS*, these pages/screens are referred to as *ViewController*
+
+In Flutter, *Routes* are referred to as *Widget*
+
+A `Route` can be written as a `class`, and has its own contents and UI
+
+An example of two *routes*, each one with their own unique *App Bar* and *Raise Button* could be:
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+runApp(const MaterialApp(
+	home: HomeRoute(),
+));
+}
+
+
+/// Route Home
+class HomeRoute extends StatelessWidget {
+const HomeRoute({Key? key}) : super(key: key);
+
+@override
+Widget build(BuildContext context) {
+	return Scaffold(
+	appBar: AppBar(
+		title: const Text('Route demo - HomeRoute'),
+		backgroundColor: Colors.cyan,
+	),
+	body: Center(
+		child: ElevatedButton(
+			child: const Text('Load SecondRoute'),
+			onPressed: () {
+			Navigator.push(
+				context,
+				MaterialPageRoute(builder: (context) => const SecondRoute()),
+			);
+			}),
+	),
+	);
+}
+}
+
+
+/// Route Second
+class SecondRoute extends StatelessWidget {
+const SecondRoute({Key? key}) : super(key: key);
+
+@override
+Widget build(BuildContext context) {
+	return Scaffold(
+	appBar: AppBar(
+		title: const Text("Route demo - SecondRoute"),
+		backgroundColor: Colors.indigo,
+	),
+	body: Center(
+		child: ElevatedButton(
+		onPressed: () {
+			Navigator.pop(context);
+		},
+		child: const Text('Go to HomeRoute'),
+		),
+	),
+	);
+}
+}
+```
+
+
 ## <a name="started_point"></a>**Started Point of the app**
 In Flutter, the default started or entry point is `main`, and is the point where your Flutter app is loaded
 
@@ -48,7 +121,7 @@ For example, the next sample code shows you a *MyHomePage* using a `Stateful wid
 
 The *Stateful widget* contains of two parts
 
-The first one is itself inmutable, creates a `State` object that holds the state of the object
+The first one is itself immutable, creates a `State` object that holds the state of the object
 
 The `State` object implements the `build()` method and persists over the life of the *widget*. When the state of the *widget tree* changes, call `setState()`, which triggers a build of that portion of the UI
 
@@ -132,4 +205,10 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+In Flutter, a *Page* or *Screen* is called `Route`
+
+According this, a *Route* is a widget, and the elements that you include in a *Route*, like a *button*, or a *progress bar* for example, are widgets too
+
+And when you build a *Route*, you are creating a *widget tree*
 
