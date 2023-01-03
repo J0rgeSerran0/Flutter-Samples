@@ -2,6 +2,8 @@
 
 - [`App Widget`](#app_widget)
 - [`Started Point of the app`](#started_point)
+- [`Stateful widget`](#stateful_widget)
+- [`UI Immutability`](#ui_immutability)
 - [`Widgets`](#widgets)
 
 ---
@@ -37,6 +39,75 @@ void main() {
   runApp(const MyApp());
 }
 ```
+
+
+## <a name="stateful_widget"></a>**Stateful widget**
+In Flutter, we can create a `page` using for example, the *Stateful widget*
+
+For example, the next sample code shows you a *MyHomePage* using a `Stateful widget`
+
+The *Stateful widget* contains of two parts
+
+The first one is itself inmutable, creates a `State` object that holds the state of the object
+
+The `State` object implements the `build()` method and persists over the life of the *widget*. When the state of the *widget tree* changes, call `setState()`, which triggers a build of that portion of the UI
+
+> Performance issue: be sure that you call `setState()` only when necessary, and only on the part of the widget tree that has changed
+
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        // Take the value from the MyHomePage object that was created by
+        // the App.build method, and use it to set the appbar title.
+        title: Text(widget.title),
+      ),
+      body: Center(
+        // Center is a layout widget. It takes a single child and positions it
+        // in the middle of the parent.
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
+          ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ),
+    );
+  }
+}
+```
+
+
+## <a name="ui_immutability"></a>**UI Immutability**
+In Flutter, the `UI` is also known as `widget tree`, and is immutable
+
+Immutable means you can't change its state once it's built
+
+When you want to change the fields, you have to do it in the `State` class, then call the `setState()` method to **rebuild** the entire `widget tree` again
+
+See [`Stateful widget`](#stateful_widget) for more details
+
 
 ## <a name="widgets"></a>**Widgets**
 In Flutter, everything is a `widget`
