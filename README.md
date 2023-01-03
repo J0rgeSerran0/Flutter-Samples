@@ -236,6 +236,7 @@ Quick Flutter resources and samples
 - `Login Page With Release`
 - `Markdown Text`
 - `Opacity`
+- `Opacity with Linear Gradient`
 - `Play Sound File`
 - `Rating`
 - `Rounded Bottom Navigation Bar`

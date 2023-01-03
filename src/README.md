@@ -269,6 +269,14 @@ This code shows you how to use the Opacity widget in Flutter
 ![Flutter Sample - Opacity](images/flutter_sample-Opacity.png)
 
 
+## <a name="opacity_with_linear_gradient"></a>[**opacity_with_linear_gradient**](opacity_with_linear_gradient/lib/main.dart)
+This code shows you how to use the Opacity widget with Linear Gradient in Flutter
+
+> <a href="https://dartpad.dev/2a37fd8a059fdde1037721a19f2cc93c" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Opacity with Linear Gradient](images/flutter_sample-Opacity_with_Linear_Gradient.png)
+
+
 ## <a name="play_sound_file"></a>[**play_sound_file**](play_sound_file/lib/main.dart)
 This sample shows as to Play a mp3 sound file in Flutter
 
