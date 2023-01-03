@@ -188,15 +188,15 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 ## <a name="stateless_widget"></a>**Stateless widget**
-A *Stateless widget* is a widget with no state information
+A `Stateless widget` is a widget with no state information
 
-A *Stateless widget* is useful when the part of the user interface does not depending on anything other than the configuration information in the object
+A `Stateless widget` is useful when the part of the user interface does not depending on anything other than the configuration information in the object
 
-If you want to dynamically change the UI based on data received after a user interaction or other, you have to work with the *StatefulWidget* to tell the Flutter Framework, that the *widget's State* has been updated and update the widget
+If you want to dynamically change the UI based on data received after a user interaction or other, you have to work with the `StatefulWidget` to tell the Flutter Framework, that the *widget's State* has been updated and update the widget
 
 > Gold Rule: If a widget changes (because of user interactions, for example) it’s stateful. However, if a widget reacts to change, the containing parent widget can still be stateless if it doesn’t itself react to change
 
-A sample of a *Stateless* widget is:
+A sample of a `Stateless` widget is:
 
 ```dart
 const Text(
@@ -205,7 +205,7 @@ const Text(
 );
 ```
 
-But the combination of a *Statefull widget* and a *Stateless widget*, could be the next one, with a *Stateless* app, and the *Statefull* page with a text, that change dynamically:
+But the combination of a `Statefull widget` and a `Stateless widget`, could be the next one, with a `Stateless` app, and the `Statefull` page with a text, that change dynamically:
 
 ```dart
 import 'package:flutter/material.dart';
