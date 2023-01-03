@@ -27,6 +27,7 @@
 - [`Login Page`](#login_page)
 - [`Login Page With Release`](#login_page_with_release)
 - [`Markdown Text`](#markdown_text)
+- [`Opacity`](#opacity)
 - [`Play Sound File`](#play_sound_file)
 - [`Rating`](#rating)
 - [`Rounded Bottom Navigation Bar`](#rounded_bottom_navigation_bar)
@@ -258,6 +259,14 @@ This sample shows as to show markdown texts in your Flutter app
 This sample uses the [flutter_markdown](https://pub.dev/packages/flutter_markdown) package to Load Markdown texts
 
 ![Flutter Sample - Markdown Text](images/flutter_sample-Markdown_Text.png)
+
+
+## <a name="opacity"></a>[**opacity**](opacity/lib/main.dart)
+This code shows you how to use the Opacity widget in Flutter
+
+> <a href="https://dartpad.dev/a45796cc3efa14b86b82fb8303c43ce6" target="_blank">Code in action using DartPad</a>
+
+![Flutter Sample - Opacity](images/flutter_sample-Opacity.png)
 
 
 ## <a name="play_sound_file"></a>[**play_sound_file**](play_sound_file/lib/main.dart)
