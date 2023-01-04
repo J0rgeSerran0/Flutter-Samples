@@ -1,6 +1,7 @@
 # **Flutter Language Specification Draft**
 
 - [`App Widget`](#app_widget)
+- [`Future in Dart`](#future_in_dart)
 - [`Material Components widgets for Android and Apple`](#material_components_widgets)
 - [`Opacity widget`](#opacity_widget)
 - [`Pages, Screens and Routes`](#pages_screens_routes)
@@ -33,6 +34,29 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+
+## <a name="future_in_dart"></a>**Future in Dart**
+As you know, a function returns a result and is a sequentially action. The function is called, runs and returns the result. One key point here, is that the caller wait until get the result to continue.
+
+The problem here is that some actions take too time. Actions like access to resources (hardware, network, devices, input/output, etc) could take too much time.
+
+When you want to show a screen with different parts or components, some of them could take very few time, but others too much. If you work in a sequential order to get all the information, the caller will have to wait to have all the information to continue between processes.
+
+Normally, in a sequential process, when a caller wait for a result in a slow call, the app just freezes avoiding to do other things between the process is being executed
+
+This is catalogued as a bug today, and you can use other techniques to hide it, like use an animation image, spinner, hourglass, progress bar, etc. But you will have to manage the response to stop the animation
+
+**So, how can I run long tasks, show an animation, wait for the results and avoid the app freezes?**
+
+Using `asynchronous operations`
+
+`Future` is a special type of object which allows you to use `async/await` syntax sugar, writting asynchronous code in synchronous/linear way. In other words, is an object representing a delayed computation
+
+
+> In other programming languages, `Future` is known as `Promise in JS`, `Future in Java and Python`, or `Task in C#`
+
+
 
 
 ## <a name="material_components_widgets"></a>**Material Components Widgets for Android and Apple**
