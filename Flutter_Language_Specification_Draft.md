@@ -69,11 +69,81 @@ In summary, a `Future` represents the result of an asynchronous operation, and c
 
 But talking about `flutter`, all in `flutter` are `widgets`, and a `widget` expects real values, not some `promise` os a value to come at a later time. How?
 
-Yes, but to sove this, we have the help of [`FutureBuilder`](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html)
+Yes, but to sove this, we have the help of [`FutureBuilder`](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html), a `widget` that builds itself based on the latest snapshot of interaction with a `Future`
 
+You can use `FutureBuilder` when you have a `Future`, to display one thing while you are waiting for it (a hourglass, a progress indicator, etc), and other thing when it's done (the result indeed)
 
+Here a complete sample of the use of `Future` and `FutureBuilder`:
 
-[Asynchronous programming - futures, async, await](https://dart.dev/codelabs/async-await)
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+// we simule a delay of 3 seconds
+Future<String> getNameFromDatabase() {
+  return Future<String>.delayed(const Duration(seconds: 3), () async => 'Name Sample');
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Future Sample',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.light(),
+      home: Scaffold(
+        body: Center(
+          child: FutureSample(),
+        ),
+      ),
+    );
+  }
+}
+
+class FutureSample extends StatefulWidget {
+  @override
+  FutureSampleState createState() => FutureSampleState();
+}
+
+class FutureSampleState extends State<FutureSample> {
+  Future<String>? delivery;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          ElevatedButton(
+            onPressed: delivery != null ? null : () => setState(() { delivery = getNameFromDatabase(); }),
+            child: const Text('Get Name (using Future)')
+          ),
+          const SizedBox(
+              height: 10,
+            ),
+          delivery == null
+            ? const Text('Future has not been executed yet')
+            : FutureBuilder(
+              future: delivery,
+              builder: (context, snapshot) {
+                if(snapshot.hasData) {
+                  return Text('Future executed: ${snapshot.data}');
+                } else if(snapshot.hasError) {
+                  return Text('Future error: ${snapshot.error.toString()}');
+                } else {
+                  return const CircularProgressIndicator();
+                }
+              })
+        ]);
+  }
+}
+```
+
+* [Future class](https://api.flutter.dev/flutter/dart-async/Future-class.html)
+* [Asynchronous programming - futures, async, await](https://dart.dev/codelabs/async-await)
 
 
 ## <a name="material_components_widgets"></a>**Material Components Widgets for Android and Apple**
