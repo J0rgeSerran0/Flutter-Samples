@@ -67,7 +67,9 @@ In general, a `promise` will return a `Future<T>`, and the `T` will be our resul
 
 In summary, a `Future` represents the result of an asynchronous operation, and can have **two states**: `uncompleted` or `completed`
 
+But talking about `flutter`, all in `flutter` are `widgets`, and a `widget` expects real values, not some `promise` os a value to come at a later time. How?
 
+Yes, but to sove this, we have the help of [`FutureBuilder`](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html)
 
 
 
