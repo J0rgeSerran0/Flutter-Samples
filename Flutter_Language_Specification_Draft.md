@@ -61,6 +61,16 @@ So, `Future` is like a special type of object which allows you to use `async/awa
 
 > In other programming languages, `Future` is known as `Promise in JS`, `Future in Java and Python`, or `Task in C#`
 
+Now, imagine that you want to show a lot of results in a screen. One of this results is the sum of all values from a table in a database. You know that this operation take some time, and you don't want to stop the execution of the rest actions. Obviously, the use of a `Future` seams a good solution here.
+
+In general, a `promise` will return a `Future<T>`, and the `T` will be our result. It could be a `Future<List<Customer>>`, or a `Future<String>` for example. For our theorical sample, our 'promise' will return a `Future<int>`.
+
+In summary, a `Future` represents the result of an asynchronous operation, and can have **two states**: `uncompleted` or `completed`
+
+
+
+
+
 [Asynchronous programming - futures, async, await](https://dart.dev/codelabs/async-await)
 
 
