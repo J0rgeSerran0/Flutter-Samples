@@ -53,11 +53,11 @@ Using `asynchronous operations`, that run while code waits for something
 
 And, how does the compiler know all this?. How does the compiler know, whether it should actually stop everything and wait for a result or continue with all the background work and wait only in this instance?. Obviously, we have to indicate it to tell to the compiler how we want that it acts
 
-The use of the pattern, or syntax sugar `async/await` will help us to do it, and it not a magic syntax, specific for `flutter` or `dart`. Other programming languages implement this possibility
+The use of the pattern, or syntactic sugar `async/await` will help us to do it, and it is not a magic syntax, specific for `flutter` or `dart`. Other programming languages implement this possibility
 
 Under the scene, a method that takes some time, cannot return immediately, so it will return a `promise`. Is the `promise` of delivering a value when the process will be done. This is called `Future` in `dart`
 
-So, `Future` is like a special type of object which allows you to use `async/await` syntax sugar, writting asynchronous code in synchronous/linear way. In other words, is an object representing a delayed computation
+So, `Future` is like a special type of object which allows you to use `async/await` syntactic sugar, writting asynchronous code in synchronous/linear way. In other words, is an object representing a delayed computation
 
 > In other programming languages, `Future` is known as `Promise in JS`, `Future in Java and Python`, or `Task in C#`
 
