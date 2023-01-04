@@ -49,14 +49,19 @@ This is catalogued as a bug today, and you can use other techniques to hide it, 
 
 **So, how can I run long tasks, show an animation, wait for the results and avoid the app freezes?**
 
-Using `asynchronous operations`
+Using `asynchronous operations`, that run while code waits for something
 
-`Future` is a special type of object which allows you to use `async/await` syntax sugar, writting asynchronous code in synchronous/linear way. In other words, is an object representing a delayed computation
+And, how does the compiler know all this?. How does the compiler know, whether it should actually stop everything and wait for a result or continue with all the background work and wait only in this instance?. Obviously, we have to indicate it to tell to the compiler how we want that it acts
 
+The use of the pattern, or syntax sugar `async/await` will help us to do it, and it not a magic syntax, specific for `flutter` or `dart`. Other programming languages implement this possibility
+
+Under the scene, a method that takes some time, cannot return immediately, so it will return a `promise`. Is the `promise` of delivering a value when the process will be done. This is called `Future` in `dart`
+
+So, `Future` is like a special type of object which allows you to use `async/await` syntax sugar, writting asynchronous code in synchronous/linear way. In other words, is an object representing a delayed computation
 
 > In other programming languages, `Future` is known as `Promise in JS`, `Future in Java and Python`, or `Task in C#`
 
-
+[Asynchronous programming - futures, async, await](https://dart.dev/codelabs/async-await)
 
 
 ## <a name="material_components_widgets"></a>**Material Components Widgets for Android and Apple**
