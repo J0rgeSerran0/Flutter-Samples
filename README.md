@@ -1,6 +1,5 @@
 # Start here!
 - [`Get Started - Install`](https://docs.flutter.dev/get-started/install)
-- <a href="https://docs.flutter.dev/get-started/install" target="_blank">`Get Started - Install`</a>
 
 ---
 
