@@ -402,7 +402,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 ## <a name="stateless_widget"></a>**Stateless widget**
-A `Stateless widget` is a widget with no state information
+A `Stateless widget` is a widget with no state information (like an [*Image*](https://docs.flutter.dev/development/ui/assets-and-images) or [*Button*](https://api.flutter.dev/flutter/material/ButtonStyleButton-class.html))
 
 A `Stateless widget` is useful when the part of the user interface does not depending on anything other than the configuration information in the object
 
