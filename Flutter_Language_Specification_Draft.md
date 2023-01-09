@@ -517,3 +517,7 @@ According this, a *Route* is a widget, and the elements that you include in a *R
 
 And when you build a *Route*, you are creating a *widget tree*
 
+The basic `widgets` in Flutter are [`Column`](https://api.flutter.dev/flutter/widgets/Column-class.html), [`Container`](https://api.flutter.dev/flutter/widgets/Container-class.html), [`Row`](https://api.flutter.dev/flutter/widgets/Row-class.html), [`Stack`](https://api.flutter.dev/flutter/widgets/Stack-class.html) and [`Text`](https://api.flutter.dev/flutter/widgets/Text-class.html)
+
+For an app interactive, we need to get user's input in various forms like gestures, taps, etc. To achieve this, we can use some `StatefullWidgets` like [`CheckBox`](https://api.flutter.dev/flutter/material/Checkbox-class.html), [`Form`](https://api.flutter.dev/flutter/widgets/Form-class.html), [`InkWell`](https://api.flutter.dev/flutter/material/InkWell-class.html), [`Radio`](https://api.flutter.dev/flutter/material/Radio-class.html), [`Slider`](https://api.flutter.dev/flutter/material/Slider-class.html) and [`TextField`](https://api.flutter.dev/flutter/material/TextField-class.html)
+
