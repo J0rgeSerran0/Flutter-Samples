@@ -245,6 +245,7 @@ Quick Flutter resources and samples
 - `Switch Button`
 - `Switch Cover Button`
 - `Text Field Search Box`
+- `ToDo List`
 
 
 ## <a name="macos_samples"></a>[**macOS Samples**](src/README_macOS.md)
