@@ -1,5 +1,6 @@
 # Dart - Programming Language
-[![](https://img.shields.io/badge/Hello%20World-blue?style=for-the-badge)](#hello_world) [![](https://img.shields.io/badge/Collections-blue?style=for-the-badge)](#collections)
+[![](https://img.shields.io/badge/Hello%20World-blue?style=for-the-badge)](#hello_world)
+[![](https://img.shields.io/badge/Collections-blue?style=for-the-badge)](#collections)
 
 
 ## <a name="hello_world"></a>**Hello World**
