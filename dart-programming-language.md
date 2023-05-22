@@ -1,6 +1,9 @@
 # Dart - Programming Language
 [![](https://img.shields.io/badge/Hello%20World-blue?style=for-the-badge)](#hello_world)
 [![](https://img.shields.io/badge/Collections-blue?style=for-the-badge)](#collections)
+[![](https://img.shields.io/badge/List-green?style=for-the-badge)](#collections_list)
+[![](https://img.shields.io/badge/Set-green?style=for-the-badge)](#collections_set)
+[![](https://img.shields.io/badge/Map-green?style=for-the-badge)](#collections_map)
 
 
 ## <a name="hello_world"></a>**Hello World**
@@ -16,7 +19,7 @@ void main() {
 
 ## <a name="collections"></a>**Collections**
 
-### List
+### <a name="collections_list"></a>List
 *Array*, arreglo o matriz. Se trata de un grupo de objetos ordenados
 
 ```dart
@@ -33,7 +36,7 @@ Output:
   Index 0: 1
 ```
 
-### Sets
+### <a name="collections_set"></a>Set
 Conjuntos de datos `únicos` desordenados
 
 ```dart
@@ -53,7 +56,7 @@ Output:
   Numbers: {1, 2, 3, 6, 9}
 ```
 
-### Maps
+### <a name="collections_map"></a>Map
 Objeto que asocia un par de datos *clave, valor* (*key, value*)
 
 ```dart
