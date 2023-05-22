@@ -1,6 +1,19 @@
 # Dart - Programming Language
+[![](https://img.shields.io/badge/Hello%20World-blue?style=for-the-badge)](#hello_world) [![](https://img.shields.io/badge/Collections-blue?style=for-the-badge)](#collections)
 
-## **Collections**
+
+## <a name="hello_world"></a>**Hello World**
+La estructuta básica de una aplicación *Dart* requiere el método `main()`, que corresponde con el inicio de cualquier aplicación
+
+La función `print` nos permite mostrar en pantalla un texto, por ejemplo *Hello World!*
+
+```dart
+void main() {
+  print('Hello World!');
+}
+```
+
+## <a name="collections"></a>**Collections**
 
 ### List
 *Array*, arreglo o matriz. Se trata de un grupo de objetos ordenados
