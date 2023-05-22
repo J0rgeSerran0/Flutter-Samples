@@ -97,7 +97,6 @@ The extensions I use are:
 
 ## Guides and Learning Paths
 - [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
-- [Dart - Programming Language](dart-programming-language.md)
 
 ## Flutter Commands
 General commands
