@@ -98,6 +98,22 @@ The extensions I use are:
 ## Guides and Learning Paths
 - [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
 
+The Dart tool uses Google Analytics to report feature usage statistics and to send basic crash reports. This data is used to help improve the Dart platform and tools over time
+
+To disable reporting of telemetry and analytics, run:
+
+```
+dart --disable-analytics
+dart --disable-telemetry
+```
+
+Analytics reporting disabled. In order to enable it, run:
+
+```
+dart --enable-analytics
+```
+
+
 ## Flutter Commands
 General commands
 - **Get Flutter Help** `flutter --help --verbose`
