@@ -216,6 +216,10 @@ This is my own document about Flutter to help to the developer, to create their 
 [Flutter custom icons generator](https://www.fluttericon.com/)
 
 
+### **C# to Dart**
+[C# to Dart (quick reference)](CSharp_to_Dart_quick_reference.md)
+
+
 ---
 
 # Flutter-Samples
