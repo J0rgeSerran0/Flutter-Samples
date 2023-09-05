@@ -1,3 +1,51 @@
+# Windows Quick Installation Guide
+
+## Reference
+- [`Get Started - Install`](https://docs.flutter.dev/get-started/install)
+
+## Installation Guide
+- [Install PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell)
+- [Install Visual Studio Code (optional)](https://code.visualstudio.com/)
+- [Install git](https://git-scm.com/download/win)
+- [Download Flutter and extract into a custom folder](https://flutter-ko.dev/development/tools/sdk/releases)
+
+- Update your path writting in the search bar **env**
+
+> Go to the **Edit the system environment variables**
+> 
+> Go to **Environment Variables**
+> 
+> Edit the **Path** entry
+> 
+> Append the full path to Flutter. For example: **C:\dev\flutter\bin**
+> 
+> Open a console Window to test Flutter, writting *where flutter dart*
+
+* [Install Android Studio](https://developer.android.com/studio)
+
+* Open Android Studio
+
+> Select all the parts that you have to install (android-sdk-license with Android SDK, Android SDK Command-line Tools, and Android SDK Build-Tools, and others)
+
+* Run the command **flutter config --android-studio-dir="<directory>"** where *<directory>* is the path where Android Studio is located. For example **flutter config --android-studio-dir="C:\Program Files\Android\Android Studio"**
+
+* Open Android Studio
+
+> Open SDK Manager
+> 
+> Select the tab SDK Tools
+> 
+> Uncheck the option Hide Obsolete Packages, and select Android SDK Tools and Android SDK Command-line Tools
+> 
+> Press the OK button to install these packages
+
+* Execute the command **flutter doctor --android-licenses** to check the licenses selecting the key **Y** to accept all pages
+
+* Run **flutter doctor** to check if all is installed correctly
+
+![image](https://github.com/J0rgeSerran0/Flutter-Samples/assets/6237500/937a5eb1-e1ee-4959-8884-2b567f973f89)
+
+
 # Start here!
 - [`Get Started - Install`](https://docs.flutter.dev/get-started/install)
 - [`git - Install`](https://git-scm.com/download/)
