@@ -187,6 +187,28 @@ Flutter App commands
 ## Flutter Packages
 - [Flutter Packages Site](https://pub.dev/packages/)
 
+## Flutter Local Offline Databases
+- [ObjectBox (NoSQL)](https://pub.dev/packages/objectbox)
+- [Sembast (NoSQL)](https://pub.dev/packages/sembast)
+- [Drift (SQL relational)](https://pub.dev/packages/drift)
+- [Sqflite (SQL relational)](https://pub.dev/packages/sqflite)
+- [Isar (NoSQL)](https://pub.dev/packages/isar) and [Isar Database](https://isar.dev/es/)
+- [Hive (NoSQL) `discontinued`](https://pub.dev/packages/hive)
+
+## Flutter Online Databases
+- [Firebase Core](https://pub.dev/packages/firebase_core)
+- [AWS Amplify (Cloud based backend as a service)](https://docs.amplify.aws/)
+- [Realm (NoSQL mongodb based online backend as a service)](https://www.mongodb.com/docs/realm/sdk/flutter/)
+- [AppWrite (NoSQL online backend as a service)](https://pub.dev/packages/appwrite)
+- [Parse Server (SQL relational online backend as a service)](https://pub.dev/packages/parse_server_sdk_flutter)
+- [Supabase (Online backend as a service)](https://supabase.com/)
+- [Firebase (NoSQL) `discontinued and replaced by firebase_core`](https://pub.dev/packages/firebase)
+
+## Flutter Backend
+- [Dart Frog (SQL based backend framework)](https://dartfrog.vgv.dev/)
+- [Serverpod (SQL based backend framework)](https://serverpod.dev/)
+
+
 ## Flutter App Architecture and Project Structure
 
 ### **Main steps when we start a new Flutter App**
