@@ -225,7 +225,7 @@ Popular or familiar App Architectures used long ago (and today), are *MVC, MVP, 
 
 In the other hand we have some alternatives:
 
-1) [*Bloc Architecture*](https://bloclibrary.dev/#/architecture) has an important popularity. [*Bloc Library*](https://bloclibrary.dev/#/) has helped to adopt this Architecture for Flutter Apps. This Architecture gives us a **strict set of rules** about how to structure our Flutter Apps. *Bloc Library* rely on [Provider Package](https://pub.dev/packages/provider), which is the [recommended package for state management](https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple)
+1) [*Bloc Architecture*](https://bloclibrary.dev/#/architecture) has an important popularity. [*Bloc Library*](https://bloclibrary.dev/#/) has helped to adopt this Architecture for Flutter Apps. This Architecture gives us a **strict set of rules** about how to structure our Flutter Apps. *Bloc Library* rely on [Provider Package](https://pub.dev/packages/provider), which is the [recommended package for state management](https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple). More details about [BLoC in Spanish](BLoC.md)
 
 2) *Stacke Architecture* based in the [*Stacked package*](https://pub.dev/packages/stacked) and inspired by *MVVM*. *Stacked package* rely on [Provider Package](https://pub.dev/packages/provider), which is the [recommended package for state management](https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple)
 
