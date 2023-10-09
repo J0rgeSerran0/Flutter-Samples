@@ -169,6 +169,9 @@ General commands
 - **Check Flutter Health** `flutter doctor`
 - **Check the version of Flutter installed** `flutter --version`
 - **Upgrade Flutter** `flutter upgrade` (to upgrade Flutter with the last stable version)
+
+> If you receive an error similar to *Unknown flutter tag. Abandoning upgrade to avoid destroying local changes. It is recommended to use git directly if not working on an official channel* when you execute the command `flutter upgrade`, you could try the command `flutter upgrade --force` instead. In this case and after do this, execute the command `flutter doctor` as well to check that all is ok
+
 ---
 Flutter App commands
 - **Create a Flutter App** `flutter create <app_name>`
