@@ -97,30 +97,30 @@ On you mac, open a terminal window and execute the next command to know what typ
 - [OpenCore Releases](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 - [How to fix Monterey problems](https://setapp.com/how-to/fix-macos-monterey-problems)
 
-| VERSIÓN                    | NOMBRE                       | FECHA DE LANZAMIENTO |
+| VERSION                    | NAME                         | DATE ANNOUNCED       |
 |----------------------------|------------------------------|----------------------|
-| RHAPSODY DEVELOPER RELEASE | Grail1Z4 / Titan1U (Interno) | Agosto, 1997         |
-| MAC OS X SERVER 1.0        | Hera (Interno)               | Marzo, 1999          |
-| MAC OS X DEVELOPER PREVIEW | -                            | Marzo, 1999          |
-| MAC OS X PUBLIC BETA       | Kodiak (Interno)             | Septiembre, 2000     |
-| MAC OS X 10.0              | Cheetah                      | Marzo, 2001          |
-| MAC OS X 10.1              | Puma                         | Septiembre, 2001     |
-| MAC OS X 10.2              | Jaguar                       | Agosto, 2002         |
-| MAC OS X 10.3              | Panther                      | Octubre, 2003        |
-| MAC OS X 10.4              | Tiger                        | Abril, 2005          |
-| MAC OS X 10.5              | Leopard                      | Octubre, 2007        |
-| MAC OS X 10.6              | Snow Leopard                 | Agosto, 2009         |
-| MAC OS X 10.7              | Lion                         | Julio, 2011          |
-| OS X 10.8                  | Mountain Lion                | Julio, 2012          |
-| OS X 10.9                  | Mavericks                    | Octubre, 2013        |
-| OS X 10.10                 | Yosemite                     | Octubre, 2014        |
-| OS X 10.11                 | El Capitan                   | Septiembre, 2015     |
-| MACOS 10.12                | Sierra                       | Septiembre, 2016     |
-| MACOS 10.13                | High Sierra                  | Septiembre, 2017     |
-| MACOS 10.14                | Mojave                       | Septiembre, 2018     |
-| MACOS 10.15                | Catalina                     | Octubre, 2019        |
-| MACOS 11                   | Big Sur                      | Noviembre, 2020      |
-| MACOS 12                   | Monterey                     | Octubre, 2021        |
+| RHAPSODY DEVELOPER RELEASE | Grail1Z4 / Titan1U (Interno) | January, 1997        |
+| MAC OS X SERVER 1.0        | Hera (Interno)               | Unknown              |
+| MAC OS X DEVELOPER PREVIEW | -                            | May, 1998            |
+| MAC OS X PUBLIC BETA       | Kodiak (Interno)             | May, 2000            |
+| MAC OS X 10.0              | Cheetah                      | January, 2001        |
+| MAC OS X 10.1              | Puma                         | July, 2001           |
+| MAC OS X 10.2              | Jaguar                       | May, 2002            |
+| MAC OS X 10.3              | Panther                      | June, 2003           |
+| MAC OS X 10.4              | Tiger                        | May, 2004            |
+| MAC OS X 10.5              | Leopard                      | June, 2006           |
+| MAC OS X 10.6              | Snow Leopard                 | June, 2008           |
+| MAC OS X 10.7              | Lion                         | October, 2010        |
+| OS X 10.8                  | Mountain Lion                | February, 2012       |
+| OS X 10.9                  | Mavericks                    | June, 2013           |
+| OS X 10.10                 | Yosemite                     | June, 2014           |
+| OS X 10.11                 | El Capitan                   | June, 2015           |
+| MACOS 10.12                | Sierra                       | June, 2016           |
+| MACOS 10.13                | High Sierra                  | June, 2017           |
+| MACOS 10.14                | Mojave                       | June, 2018           |
+| MACOS 10.15                | Catalina                     | June, 2019           |
+| MACOS 11                   | Big Sur                      | June, 2020           |
+| MACOS 12                   | Monterey                     | June, 2021           |
 | MACOS 13                   | Ventura                      | June, 2022           |
 
 ## Visual Studio Code
