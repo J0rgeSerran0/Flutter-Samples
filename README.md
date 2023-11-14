@@ -121,6 +121,7 @@ On you mac, open a terminal window and execute the next command to know what typ
 | MACOS 10.15                | Catalina                     | Octubre, 2019        |
 | MACOS 11                   | Big Sur                      | Noviembre, 2020      |
 | MACOS 12                   | Monterey                     | Octubre, 2021        |
+| MACOS 13                   | Ventura                      | June, 2022           |
 
 ## Visual Studio Code
 I use [`Visual Studio Code`](https://code.visualstudio.com/) as editor code
