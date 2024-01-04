@@ -87,7 +87,7 @@ The error should disappear now
 - [Guide to resolve problems with CocoaPods](https://guides.cocoapods.org/using/troubleshooting#installing-cocoapods)
 
 ## Update to macOS 11.x or upper
-On you mac, open a terminal window and execute the next command to know what type of mac os you have
+On you mac, open a terminal window and execute the next command to know what type of macOS you have
 
 `system_profiler SPHardwareDataType | grep 'Model Identifier'` 
 - [OpenCore Legacy Patcher - Supported Models](https://dortania.github.io/OpenCore-Legacy-Patcher/MODELS.html)
