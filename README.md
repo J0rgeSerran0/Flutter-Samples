@@ -536,7 +536,7 @@ async def main(page: ft.Page):
 ft.app(target=main)
 ```
 
-**Main Windows with standard properties**
+**Main Window with standard properties**
 ```python
 import flet as ft
 
