@@ -479,3 +479,73 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
+
+## Flet
+<img src="https://github.com/flet-dev/flet/raw/main/media/logo/flet-logo.svg" width="230" height="80" />
+> Framework that enables you to easily build real-time web, mobile, and desktop apps
+> Flet is language-agnostic, so anyone on your team could develop Flet apps in their favorite language. At the moment, `Python` is supported, and Go, C# are coming next
+> Write a monolith stateful app in Python only and get multi-user, real-time Single-Page Application (SPA)
+> `Flet UI` is built with Flutter
+
+* Information about [Flet](https://github.com/flet-dev/flet)
+* [Flet Roadmap](https://flet.dev/roadmap/)
+
+#### Requirements
+* An editor or your favorite IDE like Microsoft Visual Studio Code (no SDKs, dependencies or complex tooling)
+* Install flet `pip install flet`
+
+#### Commands
+* `python -m venv venv` to create a virtual environment
+* `source ./venv/bin/activate` or `source ./venv/Scripts/activate` or `.\venv\Scripts\activate` to activate the virtual environment
+* `python name.py` to run the program
+* `pip install flet` to install flet
+* `flet .\name.py` to run the app quickly
+
+#### Samples to move from skeleton to functional
+**Basic Sekeleton**
+```python
+import flet as ft
+
+def main(page):
+    pass
+
+ft.app(target=main)
+```
+
+**Hello World sample**
+```python
+import flet as ft
+
+def main(page: ft.Page):
+    page.add(ft.Text(value="Hello Flet!"))
+
+ft.app(target=main)
+```
+
+**Hello World sample (Async)**
+```python
+import flet as ft
+
+async def main(page: ft.Page):
+    await page.add_async(ft.Text(value="Hello Flet!"))
+
+ft.app(target=main)
+```
+
+**Main Windows with standard properties**
+```python
+import flet as ft
+
+def main(page: ft.Page):
+    page.window_width = 360
+    page.window_height = 640
+    page.window_resizable = False
+    page.padding = 0
+
+    window_container = ft.Container(width=360, height=640, bgcolor=ft.colors.BLUE, alignment=ft.alignment.top_center)
+
+    await page.add_async(container)
+
+ft.app(target=main)
+```
+
