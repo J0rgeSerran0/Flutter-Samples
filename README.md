@@ -493,6 +493,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
 * Information about [Flet](https://github.com/flet-dev/flet)
 * [Flet Roadmap](https://flet.dev/roadmap/)
+* [Flet Tutorials](https://flet.dev/docs/tutorials/)
+* [Projects done with Flet](https://github.com/flet-dev/awesome-flet)
 
 #### Requirements
 * An editor or your favorite IDE like Microsoft Visual Studio Code (no SDKs, dependencies or complex tooling)
@@ -504,6 +506,7 @@ class _MyHomePageState extends State<MyHomePage> {
 * `python name.py` to run the program
 * `pip install flet` to install flet
 * `flet .\name.py` to run the app quickly
+* `pip install flet --upgrade` to upgrate flet
 
 #### Samples to move from skeleton to functional
 **Basic Sekeleton**
