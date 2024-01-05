@@ -482,6 +482,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ## Flet
 <img src="https://github.com/flet-dev/flet/raw/main/media/logo/flet-logo.svg" width="230" height="80" />
+
 > Framework that enables you to easily build real-time web, mobile, and desktop apps
 
 > Flet is language-agnostic, so anyone on your team could develop Flet apps in their favorite language. At the moment, `Python` is supported, and Go, C# are coming next
